@@ -1,0 +1,200 @@
+2026-01-15 21:23:55.418 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.418 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.418 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.419 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.419 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.419 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.419 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.420 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.420 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.420 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.420 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.420 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.421 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.421 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:55.421 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-15 21:23:56.200 [info] Started local extension host with pid 19320.
+2026-01-15 21:23:58.213 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-01-15 21:23:58.213 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-01-15 21:23:58.273 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-01-15 21:23:58.274 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-01-15 21:23:58.285 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-01-15 21:23:58.286 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-01-15 21:24:04.942 [error] [Extension Host] Failed to update user status Error: LanguageServerClient must be initialized first!
+	at B.getInstance (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:215103)
+	at a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262153)
+	at a.restartUpdateLoop (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262644)
+	at t.activate (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:164409)
+	at async jy.n (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:14106)
+	at async jy.m (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:14069)
+	at async jy.l (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:13525)
+2026-01-15 21:24:16.212 [error] [unknown] loading already in progress: ConnectError: [unknown] loading already in progress
+    at J7o (vscode-file://vscode-app/c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6936:18269)
+    at next (vscode-file://vscode-app/c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6936:23931)
+    at async vscode-file://vscode-app/c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6936:43890
+    at async Object.unary (vscode-file://vscode-app/c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6936:23277)
+    at async Object.refreshMcpServers (vscode-file://vscode-app/c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6936:14033)
+2026-01-15 21:24:17.741 [error] [Extension Host] [Auth] Error identifying user ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.registerGdmUser (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async t.initializeAuthSession (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1332601)
+	at async t.activate (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:169407)
+	at async jy.n (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:14106)
+	at async jy.m (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:14069)
+	at async jy.l (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:13525)
+2026-01-15 21:24:35.971 [error] [Extension Host] [2026-01-15 14:24:35] [ERROR] Init sync failed after 3 retries (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:24:35.971 [error] [Extension Host] [2026-01-15 14:24:35] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:25:04.956 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:26:04.963 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:26:23.363 [error] [Extension Host] [2026-01-15 14:26:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:26:23.363 [error] [Extension Host] [2026-01-15 14:26:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:27:04.972 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:28:04.981 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:28:23.330 [error] [Extension Host] [2026-01-15 14:28:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:28:23.331 [error] [Extension Host] [2026-01-15 14:28:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:29:04.991 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:30:04.999 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:30:23.345 [error] [Extension Host] [2026-01-15 14:30:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:30:23.345 [error] [Extension Host] [2026-01-15 14:30:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:31:05.007 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:32:05.022 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:32:23.338 [error] [Extension Host] [2026-01-15 14:32:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:32:23.338 [error] [Extension Host] [2026-01-15 14:32:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:33:05.028 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:34:05.029 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:34:23.348 [error] [Extension Host] [2026-01-15 14:34:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:34:23.348 [error] [Extension Host] [2026-01-15 14:34:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:35:05.040 [error] [Extension Host] Failed to update user status ConnectError: [canceled] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+	at c (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851454)
+	at l (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2851850)
+	at next (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1659372)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218568
+	at async c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:218425
+	at async Object.unary (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1657710)
+	at async Object.getUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:2069062)
+	at async a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262258)
+2026-01-15 21:35:20.795 [error] [Extension Host] [2026-01-15 14:35:20] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:35:20.797 [error] [Extension Host] [2026-01-15 14:35:20] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+2026-01-15 21:35:45.258 [error] [Extension Host] [2026-01-15 14:35:45] [ERROR] Init sync failed after 3 retries (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: You are not logged into Antigravity.
+2026-01-15 21:35:45.258 [error] [Extension Host] [2026-01-15 14:35:45] [ERROR] Reactor Malfunction (source=local): Antigravity Error: You are not logged into Antigravity.
+2026-01-15 21:42:52.031 [error] Error: ENOENT: no such file or directory, stat 'c:\Users\Admin\.gemini\antigravity\brain\470bc0ae-da15-4f1e-a7e7-59b970812def\task.md.resolved': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\Admin\.gemini\antigravity\brain\470bc0ae-da15-4f1e-a7e7-59b970812def\task.md.resolved'
+    at Ien.create (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:38:29948)
+    at wu (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:38:27175)
+    at G9.jb (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:63:22568)
+    at G9.stat (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:63:15703)
+2026-01-15 21:45:48.187 [error] Error: ENOENT: no such file or directory, stat 'c:\Users\Admin\.gemini\antigravity\brain\470bc0ae-da15-4f1e-a7e7-59b970812def\implementation_plan.md.resolved': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\Admin\.gemini\antigravity\brain\470bc0ae-da15-4f1e-a7e7-59b970812def\implementation_plan.md.resolved'
+    at Ien.create (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:38:29948)
+    at wu (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:38:27175)
+    at G9.jb (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:63:22568)
+    at G9.stat (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:63:15703)
+2026-01-15 21:55:47.261 [error] [Extension Host] (node:19320) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Antigravity --trace-deprecation ...` to show where the warning was created)
+2026-01-15 21:57:00.168 [error] Error: ENOENT: no such file or directory, stat 'c:\Users\Admin\.gemini\antigravity\brain\3db425f3-6800-4b2c-8a72-1fc1333ef585\task.md.resolved': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\Admin\.gemini\antigravity\brain\3db425f3-6800-4b2c-8a72-1fc1333ef585\task.md.resolved'
+    at Ien.create (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:38:29948)
+    at wu (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:38:27175)
+    at G9.jb (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:63:22568)
+    at G9.stat (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:63:15703)
+2026-01-15 21:58:21.093 [error] Error: ENOENT: no such file or directory, stat 'c:\Users\Admin\.gemini\antigravity\brain\3db425f3-6800-4b2c-8a72-1fc1333ef585\implementation_plan.md.resolved': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\Admin\.gemini\antigravity\brain\3db425f3-6800-4b2c-8a72-1fc1333ef585\implementation_plan.md.resolved'
+    at Ien.create (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:38:29948)
+    at wu (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:38:27175)
+    at G9.jb (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:63:22568)
+    at G9.stat (file:///C:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/main.js:63:15703)

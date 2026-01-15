@@ -1,0 +1,15 @@
+2026-01-12 22:50:21.130 [info] 2026/01/12 22:50:21 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2026-01-12 22:50:21.328 [info] I0112 22:50:21.327446 14772 server.go:1167] Starting language server process with pid 14772
+2026-01-12 22:50:21.329 [info] I0112 22:50:21.328455 14772 server.go:284] Setting GOMAXPROCS to 4
+2026-01-12 22:50:21.336 [info] I0112 22:50:21.335972 14772 server.go:491] Language server will attempt to listen on host 127.0.0.1
+2026-01-12 22:50:21.337 [info] I0112 22:50:21.336981 14772 server.go:506] Language server listening on random port at 53617 for HTTPS
+2026-01-12 22:50:21.337 [info] I0112 22:50:21.336981 14772 server.go:513] Language server listening on random port at 53618 for HTTP
+2026-01-12 22:50:21.809 [info] I0112 22:50:21.801666 14772 server.go:484] Created extension server client at port 53616
+2026-01-12 22:50:22.055 [info] W0112 22:50:22.054295 14772 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 22:50:22.171 [info] W0112 22:50:22.170511 14772 client.go:135] failed to set auth token
+2026-01-12 22:50:22.195 [info] (Antigravity) 2026-01-12 22:50:22.193 [INFO]: Language server started
+2026-01-12 22:50:22.215 [info] W0112 22:50:22.185939 14772 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 22:50:22.222 [info] I0112 22:50:22.221491 14772 server.go:1496] initialized server successfully
+2026-01-12 22:50:22.423 [info] 2026/01/12 22:50:22 http: TLS handshake error from 127.0.0.1:50759: read tcp 127.0.0.1:53617->127.0.0.1:50759: wsarecv: An established connection was aborted by the software in your host machine.
+2026-01-12 22:50:22.423 [info] 2026/01/12 22:50:22 http: TLS handshake error from 127.0.0.1:50758: read tcp 127.0.0.1:53617->127.0.0.1:50758: wsarecv: An established connection was aborted by the software in your host machine.
+2026-01-12 22:50:22.534 [info] (Antigravity) 2026-01-12 22:50:22.533 [INFO]: LS lspClient started successfully

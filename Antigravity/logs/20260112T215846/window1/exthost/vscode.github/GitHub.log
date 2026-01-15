@@ -1,0 +1,10 @@
+2026-01-12 21:59:03.930 [info] Log level: Info
+2026-01-12 21:59:35.726 [info] Log level: Info
+2026-01-12 21:59:38.407 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-01-12 21:59:50.622 [info] Log level: Info
+2026-01-12 21:59:51.424 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-01-12 21:59:52.709 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-01-12 22:00:51.832 [info] Log level: Info
+2026-01-12 22:00:52.453 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-01-12 22:00:53.275 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-01-12 22:12:41.414 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for nhhao211/client: Error: No GitHub authentication session available.

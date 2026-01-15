@@ -1,0 +1,30 @@
+2026-01-14 23:05:28.943 [info] Using Cloud Code URL: https://daily-cloudcode-pa.googleapis.com
+2026-01-14 23:05:28.944 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-01-14 23:05:28.944 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:59877
+2026-01-14 23:05:28.944 [info] update#setState idle
+2026-01-14 23:05:29.030 [info] [ArtifactReviewLifecycle] Running one-time migration from agent manager init state
+2026-01-14 23:05:29.031 [info] [ArtifactReviewLifecycle] Migrating 3 artifact review entries
+2026-01-14 23:05:29.031 [info] [ArtifactReviewLifecycle] Migration complete
+2026-01-14 23:05:29.032 [info] [WindowPreferencesLifecycle] Migrated zoom level: 0
+2026-01-14 23:05:31.121 [info] AntigravityAuthMainService initialized
+2026-01-14 23:05:32.042 [info] [SidebarWorkspacesLifecycle] Running one-time migration from agent manager init state
+2026-01-14 23:05:32.043 [info] [SidebarWorkspacesLifecycle] Migrating 1 sidebar workspaces
+2026-01-14 23:05:32.044 [info] [SidebarWorkspacesLifecycle] Migration complete
+2026-01-14 23:05:36.819 [info] [SeenNuxIdsLifecycle] Migrated 4 seen NUX IDs
+2026-01-14 23:05:36.826 [info] [modelPreferencesOneTimeMigration] Migrated last selected cascade model from UserSettings
+2026-01-14 23:05:58.934 [info] update#setState checking for updates
+2026-01-14 23:05:59.209 [info] update#setState idle
+2026-01-14 23:06:10.144 [info] [AgentManagerWindowLifecycle] Running one-time migration from agent manager init state
+2026-01-14 23:06:10.145 [info] [AgentManagerWindowLifecycle] Migrating window position: {"width":1200,"height":800,"x":360,"y":116,"windowMode":"WINDOW_MODE_NORMAL"}
+2026-01-14 23:06:10.146 [info] [AgentManagerWindowLifecycle] Migration complete
+2026-01-14 23:06:10.618 [info] [OnboardingStateLifecycle] Migrated agent onboarding state: 0
+2026-01-14 23:06:10.618 [info] [OnboardingStateLifecycle] Migrated post onboarding state with 1 completed steps
+2026-01-14 23:06:10.622 [info] [ScratchWorkspacesLifecycle] Running one-time migration from agent manager init state
+2026-01-14 23:06:10.622 [info] [ScratchWorkspacesLifecycle] Migrating scratch display state: {"isCollapsed":false,"onlyShowFirstFewConvos":true}
+2026-01-14 23:06:10.623 [info] [ScratchWorkspacesLifecycle] Migration complete
+2026-01-14 23:06:10.623 [info] [ScratchWorkspacesLifecycle] Migrating currentReservedScratchWorkspaceUri: file:///c%3A/Users/Admin/.gemini/antigravity/playground/synthetic-astro
+2026-01-14 23:36:01.100 [info] Extension host with pid 20044 exited with code: 0, signal: unknown.
+2026-01-15 00:05:58.952 [info] update#setState checking for updates
+2026-01-15 00:05:59.228 [info] update#setState idle
+2026-01-15 00:08:13.911 [info] Extension host with pid 23052 exited with code: 0, signal: unknown.
+2026-01-15 00:08:16.390 [info] Extension host with pid 15044 exited with code: 0, signal: unknown.

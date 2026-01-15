@@ -1,0 +1,76 @@
+2026-01-14 23:05:47.106 [info] 2026/01/14 23:05:47 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2026-01-14 23:05:47.163 [info] I0114 23:05:47.162951 15740 server.go:1172] Starting language server process with pid 15740
+2026-01-14 23:05:47.163 [info] I0114 23:05:47.162951 15740 server.go:286] Setting GOMAXPROCS to 4
+2026-01-14 23:05:47.179 [info] I0114 23:05:47.178756 15740 server.go:493] Language server will attempt to listen on host 127.0.0.1
+2026-01-14 23:05:47.180 [info] I0114 23:05:47.180293 15740 server.go:508] Language server listening on random port at 59892 for HTTPS
+2026-01-14 23:05:47.181 [info] I0114 23:05:47.180293 15740 server.go:515] Language server listening on random port at 59893 for HTTP
+2026-01-14 23:05:47.593 [info] I0114 23:05:47.592962 15740 server.go:486] Created extension server client at port 59890
+2026-01-14 23:05:47.720 [info] W0114 23:05:47.718706 15740 client.go:136] failed to set auth token
+2026-01-14 23:05:47.721 [info] W0114 23:05:47.720225 15740 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-14 23:05:47.746 [info] (Antigravity) 2026-01-14 23:05:47.744 [INFO]: Language server started
+2026-01-14 23:05:47.768 [info] I0114 23:05:47.758741 15740 server.go:1528] initialized server successfully
+2026-01-14 23:05:47.786 [info] W0114 23:05:47.777422 15740 client.go:136] failed to set auth token
+2026-01-14 23:05:47.786 [info] W0114 23:05:47.777422 15740 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-14 23:05:47.786 [info] W0114 23:05:47.778953 15740 client.go:136] failed to set auth token
+2026-01-14 23:05:47.786 [info] W0114 23:05:47.778953 15740 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-14 23:05:47.872 [info] 2026/01/14 23:05:47 http: TLS handshake error from 127.0.0.1:59905: remote error: tls: unknown certificate
+2026-01-14 23:05:48.028 [info] (Antigravity) 2026-01-14 23:05:48.027 [INFO]: LS lspClient started successfully
+2026-01-14 23:27:52.657 [info] W0114 23:27:52.656766 15740 workspace_manager.go:683] Too many changes in DidChangeWatchedFiles: 2575
+2026-01-14 23:27:55.592 [info] (Antigravity) 2026-01-14 23:27:55.591 [INFO]: [Terminal] Command completed: npm install mermaid exit code 0
+2026-01-14 23:28:45.652 [info] (Antigravity) 2026-01-14 23:28:45.651 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-01-14 23:30:58.377 [info] I0114 23:30:58.376745 15740 planner_generator.go:273] Requesting planner with 6 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:30:58.603 [info] E0114 23:30:58.602807 15740 repo.go:347] failed to create patch for untracked file client/: read d:/DuAnRieng/MemMart/client: Incorrect function.
+2026-01-14 23:31:03.216 [info] I0114 23:31:03.215670 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x63707ba987483b5e
+2026-01-14 23:31:06.884 [info] I0114 23:31:06.883812 15740 planner_generator.go:273] Requesting planner with 8 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:31:07.772 [info] I0114 23:31:07.772291 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1cb925ed8c1199a9
+2026-01-14 23:31:10.775 [info] I0114 23:31:10.774636 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdf770c8e042e948d
+2026-01-14 23:34:05.352 [info] I0114 23:34:05.351580 15740 planner_generator.go:273] Requesting planner with 10 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:34:09.433 [info] I0114 23:34:09.432934 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7f093811f9e6b1c0
+2026-01-14 23:34:14.385 [info] I0114 23:34:14.385305 15740 planner_generator.go:273] Requesting planner with 12 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:34:18.797 [info] I0114 23:34:18.796741 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa5750f70201c9e3a
+2026-01-14 23:34:20.187 [info] I0114 23:34:20.187500 15740 planner_generator.go:273] Requesting planner with 14 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:34:25.096 [info] I0114 23:34:25.096142 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x23e0d3d11ffd5bba
+2026-01-14 23:34:39.027 [info] I0114 23:34:39.026814 15740 planner_generator.go:273] Requesting planner with 16 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:34:47.411 [info] I0114 23:34:47.411440 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x631c9d21a9e1625a
+2026-01-14 23:34:51.835 [info] I0114 23:34:51.834778 15740 planner_generator.go:273] Requesting planner with 18 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:34:56.126 [info] I0114 23:34:56.125357 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4332b79ffc003f48
+2026-01-14 23:35:04.238 [info] I0114 23:35:04.237277 15740 planner_generator.go:273] Requesting planner with 20 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:35:10.994 [info] I0114 23:35:10.993189 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7487a16dba41c227
+2026-01-14 23:35:11.067 [info] I0114 23:35:11.066951 15740 planner_generator.go:273] Requesting planner with 22 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:35:16.176 [info] I0114 23:35:16.176205 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc9f698d744d78390
+2026-01-14 23:35:17.070 [info] I0114 23:35:17.069314 15740 planner_generator.go:273] Requesting planner with 24 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:35:20.923 [info] I0114 23:35:20.922132 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xed17d1ac35fb1aaf
+2026-01-14 23:35:20.961 [info] I0114 23:35:20.959559 15740 planner_generator.go:273] Requesting planner with 26 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:35:25.955 [info] I0114 23:35:25.954764 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe602febe34a4c9bd
+2026-01-14 23:35:26.798 [info] I0114 23:35:26.797394 15740 planner_generator.go:273] Requesting planner with 28 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-14 23:35:32.922 [info] I0114 23:35:32.917756 15740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4819996bfc2e7ab5
+2026-01-14 23:36:05.611 [info] 2026/01/14 23:36:05 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2026-01-14 23:36:06.018 [info] I0114 23:36:06.017376  5740 server.go:1172] Starting language server process with pid 5740
+2026-01-14 23:36:06.019 [info] I0114 23:36:06.018389  5740 server.go:286] Setting GOMAXPROCS to 4
+2026-01-14 23:36:06.058 [info] I0114 23:36:06.036467  5740 server.go:493] Language server will attempt to listen on host 127.0.0.1
+2026-01-14 23:36:06.058 [info] I0114 23:36:06.040919  5740 server.go:508] Language server listening on random port at 51571 for HTTPS
+2026-01-14 23:36:06.058 [info] I0114 23:36:06.040919  5740 server.go:515] Language server listening on random port at 51572 for HTTP
+2026-01-14 23:36:06.618 [info] I0114 23:36:06.615658  5740 server.go:486] Created extension server client at port 51566
+2026-01-14 23:36:06.974 [info] W0114 23:36:06.972755  5740 client.go:136] failed to set auth token
+2026-01-14 23:36:06.975 [info] W0114 23:36:06.973766  5740 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-14 23:36:07.005 [info] (Antigravity) 2026-01-14 23:36:07.004 [INFO]: Language server started
+2026-01-14 23:36:07.044 [info] I0114 23:36:07.044141  5740 server.go:1528] initialized server successfully
+2026-01-14 23:36:07.096 [info] W0114 23:36:07.085890  5740 client.go:136] failed to set auth token
+2026-01-14 23:36:07.096 [info] W0114 23:36:07.085890  5740 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-14 23:36:07.096 [info] W0114 23:36:07.086917  5740 client.go:136] failed to set auth token
+2026-01-14 23:36:07.096 [info] W0114 23:36:07.087463  5740 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-14 23:36:07.416 [info] 2026/01/14 23:36:07 http: TLS handshake error from 127.0.0.1:51586: read tcp 127.0.0.1:51571->127.0.0.1:51586: wsarecv: An established connection was aborted by the software in your host machine.
+2026-01-14 23:36:07.465 [info] (Antigravity) 2026-01-14 23:36:07.465 [INFO]: LS lspClient started successfully
+2026-01-14 23:36:07.486 [info] E0114 23:36:07.485895  5740 interceptor.go:74] /exa.language_server_pb.LanguageServerService/StreamCascadeReactiveUpdates (unknown): reactive component b0708fa8-5eb5-4c34-b5d5-762b753d9e4f not found
+2026-01-14 23:36:09.083 [info] E0114 23:36:08.575865  5740 interceptor.go:74] /exa.language_server_pb.LanguageServerService/StreamCascadeReactiveUpdates (unknown): reactive component b0708fa8-5eb5-4c34-b5d5-762b753d9e4f not found
+2026-01-14 23:38:18.718 [info] E0114 23:38:18.717578  5740 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-14 23:38:19.737 [info] E0114 23:38:19.694444  5740 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-14 23:42:25.706 [info] (Antigravity) 2026-01-14 23:42:25.706 [INFO]: [Terminal] Command completed: cd client exit code 0
+2026-01-14 23:42:49.652 [info] (Antigravity) 2026-01-14 23:42:49.651 [INFO]: [Terminal] Command completed: npm install cmdk exit code 0
+2026-01-15 00:02:55.701 [info] (Antigravity) 2026-01-15 00:02:55.700 [INFO]: [Terminal] Command completed: npm run dev exit code 1
+2026-01-15 00:02:57.956 [info] (Antigravity) 2026-01-15 00:02:57.956 [INFO]: [Terminal] Command completed: npm run dev exit code 1
+2026-01-15 00:03:31.293 [info] E0115 00:03:31.293281  5740 log.go:354] error converting token count to int: unleashWrapper is nil
+2026-01-15 00:03:31.683 [info] E0115 00:03:31.682384  5740 log.go:362] Failed to generate commit message: error grabbing LLM response: stream error
+2026-01-15 00:03:31.683 [info] E0115 00:03:31.683407  5740 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GenerateCommitMessage (unknown): error grabbing LLM response: stream error
+2026-01-15 00:04:20.560 [info] E0115 00:04:20.560374  5740 log.go:354] error converting token count to int: unleashWrapper is nil
+2026-01-15 00:04:23.904 [info] I0115 00:04:23.904260  5740 http_helpers.go:124] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfce3237a77333937

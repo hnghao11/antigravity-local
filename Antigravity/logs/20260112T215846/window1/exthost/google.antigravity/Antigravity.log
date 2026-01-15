@@ -1,0 +1,692 @@
+2026-01-12 21:59:10.029 [info] 2026/01/12 21:59:10 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2026-01-12 21:59:10.244 [info] I0112 21:59:10.243963 15380 server.go:1167] Starting language server process with pid 15380
+2026-01-12 21:59:10.244 [info] I0112 21:59:10.243963 15380 server.go:284] Setting GOMAXPROCS to 4
+2026-01-12 21:59:10.250 [info] I0112 21:59:10.249654 15380 server.go:491] Language server will attempt to listen on host 127.0.0.1
+2026-01-12 21:59:10.252 [info] I0112 21:59:10.250654 15380 server.go:506] Language server listening on random port at 56205 for HTTPS
+2026-01-12 21:59:10.254 [info] I0112 21:59:10.253177 15380 server.go:513] Language server listening on random port at 56206 for HTTP
+2026-01-12 21:59:10.716 [info] I0112 21:59:10.716145 15380 server.go:484] Created extension server client at port 56204
+2026-01-12 21:59:10.909 [info] W0112 21:59:10.909221 15380 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 21:59:10.928 [info] W0112 21:59:10.927067 15380 client.go:135] failed to set auth token
+2026-01-12 21:59:10.928 [info] W0112 21:59:10.927590 15380 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 21:59:10.964 [info] (Antigravity) 2026-01-12 21:59:10.963 [INFO]: Language server started
+2026-01-12 21:59:10.994 [info] I0112 21:59:10.994162 15380 server.go:1496] initialized server successfully
+2026-01-12 21:59:11.017 [info] I0112 21:59:11.016515 15380 log_context.go:106] Removing OAuth token info
+2026-01-12 21:59:11.077 [info] 2026/01/12 21:59:11 http: TLS handshake error from 127.0.0.1:56216: read tcp 127.0.0.1:56205->127.0.0.1:56216: wsarecv: An established connection was aborted by the software in your host machine.
+2026-01-12 21:59:11.162 [info] (Antigravity) 2026-01-12 21:59:11.160 [INFO]: LS lspClient started successfully
+2026-01-12 21:59:11.609 [info] I0112 21:59:11.608273 15380 log_context.go:106] Removing OAuth token info
+2026-01-12 21:59:12.239 [info] W0112 21:59:11.727421 15380 log_context.go:106] Cache(loadCodeAssistResponse): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 21:59:12.239 [info] W0112 21:59:11.727421 15380 log_context.go:106] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: You are not logged into Antigravity.
+2026-01-12 21:59:12.239 [info] E0112 21:59:11.727421 15380 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetCommandModelConfigs (unknown): failed to get load code assist response: You are not logged into Antigravity.
+2026-01-12 21:59:12.239 [info] E0112 21:59:11.728433 15380 client.go:214] State sync stream error for topic uss-enterprisePreferences: canceled: context canceled.
+2026-01-12 21:59:12.560 [info] W0112 21:59:12.386114 15380 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 21:59:12.561 [info] E0112 21:59:12.386114 15380 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GetUserStatus (unknown): You are not logged into Antigravity.
+2026-01-12 21:59:51.089 [info] 2026/01/12 21:59:51 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2026-01-12 21:59:51.400 [info] I0112 21:59:51.359843 16888 server.go:1167] Starting language server process with pid 16888
+2026-01-12 21:59:51.400 [info] I0112 21:59:51.359843 16888 server.go:284] Setting GOMAXPROCS to 4
+2026-01-12 21:59:51.425 [info] I0112 21:59:51.408191 16888 server.go:491] Language server will attempt to listen on host 127.0.0.1
+2026-01-12 21:59:51.426 [info] I0112 21:59:51.408697 16888 server.go:506] Language server listening on random port at 62268 for HTTPS
+2026-01-12 21:59:51.426 [info] I0112 21:59:51.408697 16888 server.go:513] Language server listening on random port at 62269 for HTTP
+2026-01-12 21:59:51.954 [info] I0112 21:59:51.950622 16888 server.go:484] Created extension server client at port 62267
+2026-01-12 21:59:52.103 [info] W0112 21:59:52.102878 16888 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 21:59:52.531 [info] W0112 21:59:52.248393 16888 client.go:135] failed to set auth token
+2026-01-12 21:59:52.531 [info] W0112 21:59:52.249405 16888 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 21:59:52.569 [info] (Antigravity) 2026-01-12 21:59:52.566 [INFO]: Language server started
+2026-01-12 21:59:52.710 [info] I0112 21:59:52.579708 16888 server.go:1496] initialized server successfully
+2026-01-12 21:59:53.154 [info] 2026/01/12 21:59:53 http: TLS handshake error from 127.0.0.1:62289: read tcp 127.0.0.1:62268->127.0.0.1:62289: wsarecv: An established connection was aborted by the software in your host machine.
+2026-01-12 21:59:53.154 [info] 2026/01/12 21:59:53 http: TLS handshake error from 127.0.0.1:62291: read tcp 127.0.0.1:62268->127.0.0.1:62291: wsarecv: An established connection was aborted by the software in your host machine.
+2026-01-12 21:59:53.301 [info] (Antigravity) 2026-01-12 21:59:53.301 [INFO]: LS lspClient started successfully
+2026-01-12 22:00:52.248 [info] 2026/01/12 22:00:52 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2026-01-12 22:00:52.648 [info] I0112 22:00:52.647676  2676 server.go:1167] Starting language server process with pid 2676
+2026-01-12 22:00:52.648 [info] I0112 22:00:52.648313  2676 server.go:284] Setting GOMAXPROCS to 4
+2026-01-12 22:00:52.659 [info] I0112 22:00:52.658997  2676 server.go:491] Language server will attempt to listen on host 127.0.0.1
+2026-01-12 22:00:52.662 [info] I0112 22:00:52.662010  2676 server.go:506] Language server listening on random port at 54298 for HTTPS
+2026-01-12 22:00:52.662 [info] I0112 22:00:52.662010  2676 server.go:513] Language server listening on random port at 54299 for HTTP
+2026-01-12 22:00:53.176 [info] I0112 22:00:53.175503  2676 server.go:484] Created extension server client at port 54294
+2026-01-12 22:00:53.286 [info] W0112 22:00:53.286390  2676 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 22:00:53.353 [info] W0112 22:00:53.352680  2676 client.go:135] failed to set auth token
+2026-01-12 22:00:53.356 [info] W0112 22:00:53.353679  2676 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-12 22:00:53.383 [info] (Antigravity) 2026-01-12 22:00:53.381 [INFO]: Language server started
+2026-01-12 22:00:53.404 [info] I0112 22:00:53.396236  2676 server.go:1496] initialized server successfully
+2026-01-12 22:00:53.512 [info] 2026/01/12 22:00:53 http: TLS handshake error from 127.0.0.1:54314: read tcp 127.0.0.1:54298->127.0.0.1:54314: wsarecv: An established connection was aborted by the software in your host machine.
+2026-01-12 22:00:53.664 [info] (Antigravity) 2026-01-12 22:00:53.663 [INFO]: LS lspClient started successfully
+2026-01-12 22:01:26.204 [info] E0112 22:01:26.203851  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:01:26.453 [info] I0112 22:01:26.453418  2676 planner_generator.go:273] Requesting planner with 2 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:01:26.568 [info] E0112 22:01:26.567826  2676 repo.go:347] failed to create patch for untracked file client/: read d:/DuAnRieng/MemMart/client: Incorrect function.
+2026-01-12 22:01:29.539 [info] I0112 22:01:29.538286  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3d15ad97c401b555
+2026-01-12 22:01:44.237 [info] (Antigravity) 2026-01-12 22:01:44.236 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart' exit code 0
+2026-01-12 22:01:45.542 [info] (Antigravity) 2026-01-12 22:01:45.540 [INFO]: [Terminal] Command completed: python --version exit code 0
+2026-01-12 22:01:49.184 [info] W0112 22:01:49.182946  2676 browser_subagent_handler.go:145] Failed to launch browser and/or initialize extension: extension service worker not found
+2026-01-12 22:01:49.189 [info] E0112 22:01:49.189543  2676 log.go:362] failed page view for browser ephemeral message: no browser session active
+2026-01-12 22:01:49.190 [info] E0112 22:01:49.189543  2676 log.go:362] failed DOM for browser ephemeral message: no browser session active
+2026-01-12 22:01:49.190 [info] I0112 22:01:49.190083  2676 planner_generator.go:273] Requesting planner with 1 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:01:51.390 [info] I0112 22:01:51.389468  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbb7b3a5823689734
+2026-01-12 22:01:51.670 [info] E0112 22:01:51.669743  2676 common_browser_handler.go:419] No browser pages are currently open.
+2026-01-12 22:01:53.895 [info] I0112 22:01:53.894539  2676 operator.go:785] Updating actuation overlay for page 
+2026-01-12 22:01:53.895 [info] I0112 22:01:53.894539  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:01:53.895 [info] I0112 22:01:53.895178  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Opening URL...","passthroughEnabled":false})
+2026-01-12 22:01:53.941 [info] I0112 22:01:53.940179  2676 operator.go:817] Actuation overlay not injected yet for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:01:54.011 [info] E0112 22:01:54.010936  2676 operator.go:825] Failed to update actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB: playwright: Error: Failed to find shadow host
+2026-01-12 22:01:54.011 [info]     at window.updateActuationOverlay (eval at evaluate (:234:30), <anonymous>:2:161472)
+2026-01-12 22:01:54.011 [info]     at eval (eval at evaluate (:234:30), <anonymous>:1:8)
+2026-01-12 22:01:54.011 [info]     at eval (<anonymous>)
+2026-01-12 22:01:54.011 [info]     at UtilityScript.evaluate (<anonymous>:234:30)
+2026-01-12 22:01:54.011 [info]     at UtilityScript.<anonymous> (<anonymous>:1:44)
+2026-01-12 22:01:54.025 [info] E0112 22:01:54.024562  2676 recording_manager.go:297] failed to stop screencast for current page: page  not found
+2026-01-12 22:01:54.028 [info] I0112 22:01:54.028290  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:01:54.028 [info] I0112 22:01:54.028290  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:01:54.032 [info] I0112 22:01:54.031583  2676 operator.go:817] Actuation overlay not injected yet for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:01:54.064 [info] E0112 22:01:54.063896  2676 operator.go:825] Failed to update actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB: playwright: Error: Failed to find shadow host
+2026-01-12 22:01:54.064 [info]     at window.updateActuationOverlay (eval at evaluate (:234:30), <anonymous>:2:161472)
+2026-01-12 22:01:54.064 [info]     at eval (eval at evaluate (:234:30), <anonymous>:1:8)
+2026-01-12 22:01:54.064 [info]     at eval (<anonymous>)
+2026-01-12 22:01:54.064 [info]     at UtilityScript.evaluate (<anonymous>:234:30)
+2026-01-12 22:01:54.064 [info]     at UtilityScript.<anonymous> (<anonymous>:1:44)
+2026-01-12 22:01:54.979 [info] I0112 22:01:54.978999  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:01:54.979 [info] I0112 22:01:54.978999  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:01:54.995 [info] I0112 22:01:54.995275  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:01:54.995 [info] I0112 22:01:54.995275  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:01:55.599 [info] I0112 22:01:55.598516  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:01:55.599 [info] I0112 22:01:55.598516  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:01:56.251 [info] I0112 22:01:56.249760  2676 planner_generator.go:273] Requesting planner with 3 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:02:00.505 [info] I0112 22:02:00.503960  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8e807741bc5b5399
+2026-01-12 22:02:02.513 [info] E0112 22:02:02.512588  2676 log.go:362] unknown tool name: `browser_scroll`
+2026-01-12 22:02:02.515 [info] I0112 22:02:02.515009  2676 planner_generator.go:273] Requesting planner with 5 chat messages at model retry attempt 2 and API retry attempt 1
+2026-01-12 22:02:05.014 [info] I0112 22:02:05.014339  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3bce558f3115be04
+2026-01-12 22:02:05.305 [info] I0112 22:02:05.305114  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:05.305 [info] I0112 22:02:05.305114  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":true})
+2026-01-12 22:02:05.354 [info] I0112 22:02:05.353326  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:05.355 [info] I0112 22:02:05.353326  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":false})
+2026-01-12 22:02:05.559 [info] I0112 22:02:05.558781  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:05.559 [info] I0112 22:02:05.558781  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:02:05.935 [info] I0112 22:02:05.934618  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:05.935 [info] I0112 22:02:05.934618  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:02:05.985 [info] I0112 22:02:05.985270  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:05.986 [info] I0112 22:02:05.985778  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:02:06.199 [info] I0112 22:02:06.198996  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:06.199 [info] I0112 22:02:06.198996  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:02:06.229 [info] I0112 22:02:06.229021  2676 planner_generator.go:273] Requesting planner with 7 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:02:12.478 [info] I0112 22:02:12.477549  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x35d3b505a0db245a
+2026-01-12 22:02:14.879 [info] I0112 22:02:14.874853  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:14.879 [info] I0112 22:02:14.874853  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":true})
+2026-01-12 22:02:15.009 [info] I0112 22:02:15.005441  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:15.009 [info] I0112 22:02:15.005441  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":false})
+2026-01-12 22:02:15.443 [info] I0112 22:02:15.443098  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:15.443 [info] I0112 22:02:15.443098  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:02:15.698 [info] I0112 22:02:15.698459  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:15.698 [info] I0112 22:02:15.698459  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:02:15.716 [info] I0112 22:02:15.715969  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:15.716 [info] I0112 22:02:15.715969  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:02:15.898 [info] I0112 22:02:15.898114  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:15.898 [info] I0112 22:02:15.898114  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:02:15.918 [info] I0112 22:02:15.917673  2676 planner_generator.go:273] Requesting planner with 9 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:02:19.694 [info] I0112 22:02:19.693246  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x940c51d13efbf3d4
+2026-01-12 22:02:21.174 [info] I0112 22:02:21.173777  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:21.174 [info] I0112 22:02:21.173777  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":true,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Agent needs your input","passthroughEnabled":false})
+2026-01-12 22:02:24.033 [info] I0112 22:02:24.031861  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:24.033 [info] I0112 22:02:24.031861  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":false,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript..."})
+2026-01-12 22:02:24.054 [info] I0112 22:02:24.053672  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:24.054 [info] I0112 22:02:24.053672  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":true})
+2026-01-12 22:02:24.084 [info] I0112 22:02:24.084179  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:24.084 [info] I0112 22:02:24.084179  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":false})
+2026-01-12 22:02:24.182 [info] I0112 22:02:24.182353  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:24.183 [info] I0112 22:02:24.182353  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:02:24.476 [info] I0112 22:02:24.476196  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:24.476 [info] I0112 22:02:24.476196  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:02:24.508 [info] I0112 22:02:24.507922  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:24.508 [info] I0112 22:02:24.507922  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:02:24.909 [info] I0112 22:02:24.908548  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:24.909 [info] I0112 22:02:24.908548  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:02:24.936 [info] I0112 22:02:24.936243  2676 planner_generator.go:273] Requesting planner with 11 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:02:28.653 [info] I0112 22:02:28.652878  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xab253f58b3113746
+2026-01-12 22:02:30.355 [info] I0112 22:02:30.354730  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:30.355 [info] I0112 22:02:30.355286  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":true})
+2026-01-12 22:02:30.438 [info] I0112 22:02:30.438260  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:30.438 [info] I0112 22:02:30.438260  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":false})
+2026-01-12 22:02:30.685 [info] I0112 22:02:30.685096  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:30.685 [info] I0112 22:02:30.685096  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:02:31.078 [info] I0112 22:02:31.077864  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:31.078 [info] I0112 22:02:31.077864  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:02:31.105 [info] I0112 22:02:31.104742  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:31.105 [info] I0112 22:02:31.104742  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:02:31.265 [info] I0112 22:02:31.264679  2676 operator.go:785] Updating actuation overlay for page B335ECCC44811EEF1CD26B101BE446CB
+2026-01-12 22:02:31.265 [info] I0112 22:02:31.264679  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:02:31.335 [info] I0112 22:02:31.335306  2676 planner_generator.go:273] Requesting planner with 13 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:02:34.856 [info] I0112 22:02:34.855591  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa10ea0dce860fe04
+2026-01-12 22:02:42.218 [info] I0112 22:02:42.217802  2676 planner_generator.go:273] Requesting planner with 6 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:02:43.122 [info] I0112 22:02:43.120920  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2dd49f25791b6b93
+2026-01-12 22:02:44.964 [info] I0112 22:02:44.964030  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7869549fca08bf4b
+2026-01-12 22:02:56.059 [info] (Antigravity) 2026-01-12 22:02:56.058 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart' exit code 0
+2026-01-12 22:02:57.586 [info] (Antigravity) 2026-01-12 22:02:57.586 [INFO]: [Terminal] Command completed: python .shared/ui-ux-pro-max/scripts/search.py "minimal modern lightweight clean" --domain style -n 3 exit code 0
+2026-01-12 22:02:59.942 [info] (Antigravity) 2026-01-12 22:02:59.941 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart' exit code 0
+2026-01-12 22:03:01.322 [info] (Antigravity) 2026-01-12 22:03:01.321 [INFO]: [Terminal] Command completed: python .shared/ui-ux-pro-max/scripts/search.py "developer professional modern" --domain typography -n 3 exit code 0
+2026-01-12 22:03:02.714 [info] (Antigravity) 2026-01-12 22:03:02.713 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart' exit code 0
+2026-01-12 22:03:04.114 [info] (Antigravity) 2026-01-12 22:03:04.114 [INFO]: [Terminal] Command completed: python .shared/ui-ux-pro-max/scripts/search.py "saas productivity" --domain color -n 3 exit code 0
+2026-01-12 22:03:04.144 [info] I0112 22:03:04.144331  2676 planner_generator.go:273] Requesting planner with 10 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:03:07.649 [info] I0112 22:03:07.648724  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa25b5b40a517afcc
+2026-01-12 22:03:15.246 [info] (Antigravity) 2026-01-12 22:03:15.245 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart' exit code 0
+2026-01-12 22:03:16.580 [info] (Antigravity) 2026-01-12 22:03:16.579 [INFO]: [Terminal] Command completed: python .shared/ui-ux-pro-max/scripts/search.py "animation performance" --domain ux -n 3 exit code 0
+2026-01-12 22:03:18.725 [info] (Antigravity) 2026-01-12 22:03:18.724 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart' exit code 0
+2026-01-12 22:03:20.141 [info] (Antigravity) 2026-01-12 22:03:20.140 [INFO]: [Terminal] Command completed: python .shared/ui-ux-pro-max/scripts/search.py "layout responsive" --stack html-tailwind -n 3 exit code 0
+2026-01-12 22:03:20.176 [info] I0112 22:03:20.174038  2676 planner_generator.go:273] Requesting planner with 13 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:03:22.877 [info] I0112 22:03:22.876633  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5208483b649d0ba3
+2026-01-12 22:03:26.389 [info] I0112 22:03:26.388905  2676 planner_generator.go:273] Requesting planner with 16 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:03:30.055 [info] I0112 22:03:30.054665  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x91c4f0d1b779aa9c
+2026-01-12 22:03:33.684 [info] I0112 22:03:33.683038  2676 planner_generator.go:273] Requesting planner with 19 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:03:37.996 [info] I0112 22:03:37.995751  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x388e387ecd44b163
+2026-01-12 22:03:39.277 [info] I0112 22:03:39.276498  2676 planner_generator.go:273] Requesting planner with 22 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:03:42.262 [info] I0112 22:03:42.261397  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe41ef71338cb8d68
+2026-01-12 22:04:14.829 [info] E0112 22:04:14.829376  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:04:16.597 [info] I0112 22:04:16.596545  2676 planner_generator.go:273] Requesting planner with 24 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:04:18.557 [info] I0112 22:04:18.557581  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x72b060b54b156c46
+2026-01-12 22:04:39.852 [info] E0112 22:04:39.851639  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:04:41.957 [info] I0112 22:04:41.957380  2676 planner_generator.go:273] Requesting planner with 26 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:04:44.545 [info] I0112 22:04:44.544960  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd391b1d86bd9a17b
+2026-01-12 22:05:01.135 [info] E0112 22:05:01.135333  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:05:01.179 [info] E0112 22:05:01.179284  2676 log.go:362] error executing cascade step: CORTEX_STEP_TYPE_CODE_ACTION: Could not successfully apply any edits. Please review the file and try smaller edits that you are more confident about.: chunk 0: target content not found in file
+2026-01-12 22:05:01.254 [info] I0112 22:05:01.253035  2676 planner_generator.go:273] Requesting planner with 28 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:05:04.801 [info] I0112 22:05:04.801233  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe5d936dbe370ab35
+2026-01-12 22:05:06.405 [info] I0112 22:05:06.404925  2676 planner_generator.go:273] Requesting planner with 30 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:05:09.786 [info] I0112 22:05:09.786315  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2b8b262193af55b1
+2026-01-12 22:05:19.777 [info] E0112 22:05:19.776782  2676 log.go:354] argument order was not respected: [TargetFile] vs [CodeMarkdownLanguage Complexity Description Instruction ReplacementChunks TargetFile]
+2026-01-12 22:05:21.873 [info] I0112 22:05:21.872902  2676 planner_generator.go:273] Requesting planner with 32 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:05:25.429 [info] I0112 22:05:25.429346  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x448b578435b560c5
+2026-01-12 22:05:27.511 [info] I0112 22:05:27.511030  2676 planner_generator.go:273] Requesting planner with 34 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:05:31.572 [info] I0112 22:05:31.571172  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf9a54a811bbe451e
+2026-01-12 22:05:56.260 [info] E0112 22:05:56.259672  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:05:56.579 [info] E0112 22:05:56.579315  2676 log.go:362] error executing cascade step: CORTEX_STEP_TYPE_CODE_ACTION: Could not successfully apply any edits. Please review the file and try smaller edits that you are more confident about.: chunk 0: target content not found in file
+2026-01-12 22:05:56.665 [info] I0112 22:05:56.665120  2676 planner_generator.go:273] Requesting planner with 36 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:05:59.807 [info] I0112 22:05:59.806439  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5efcf4cd13ed4da
+2026-01-12 22:06:30.886 [info] E0112 22:06:30.885617  2676 log.go:354] argument order was not respected: [TargetFile Overwrite] vs [CodeContent Complexity Description Overwrite TargetFile]
+2026-01-12 22:06:33.138 [info] I0112 22:06:33.137915  2676 planner_generator.go:273] Requesting planner with 38 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:06:36.596 [info] I0112 22:06:36.596150  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc44ed25baeeb3f76
+2026-01-12 22:06:39.121 [info] I0112 22:06:39.120275  2676 planner_generator.go:273] Requesting planner with 40 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:06:43.002 [info] I0112 22:06:43.002633  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfb9b71aef18244d8
+2026-01-12 22:06:43.505 [info] I0112 22:06:43.505410  2676 planner_generator.go:273] Requesting planner with 42 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:06:47.305 [info] I0112 22:06:47.305459  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfaa8df361b124462
+2026-01-12 22:06:51.248 [info] I0112 22:06:51.248059  2676 planner_generator.go:273] Requesting planner with 44 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:06:55.092 [info] I0112 22:06:55.091811  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1c9b6757f45ee25e
+2026-01-12 22:06:56.242 [info] I0112 22:06:56.242125  2676 planner_generator.go:273] Requesting planner with 46 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:07:03.871 [info] I0112 22:07:03.870131  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbf308b43a0f5b5ef
+2026-01-12 22:07:09.017 [info] E0112 22:07:09.017635  2676 log.go:354] argument order was not respected: [TargetFile Overwrite] vs [CodeContent Complexity Description Overwrite TargetFile]
+2026-01-12 22:07:11.072 [info] I0112 22:07:11.072210  2676 planner_generator.go:273] Requesting planner with 48 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:07:14.568 [info] I0112 22:07:14.568317  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe72d65ae2fee0a3
+2026-01-12 22:07:23.672 [info] (Antigravity) 2026-01-12 22:07:23.671 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart\client' exit code 0
+2026-01-12 22:07:26.455 [info] I0112 22:07:26.454545  2676 planner_generator.go:273] Requesting planner with 50 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:07:30.007 [info] I0112 22:07:30.007548  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9a8868171efba92
+2026-01-12 22:07:36.138 [info] I0112 22:07:36.138142  2676 planner_generator.go:273] Requesting planner with 52 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:07:39.983 [info] I0112 22:07:39.982886  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd58153a16224a998
+2026-01-12 22:07:45.721 [info] W0112 22:07:45.720776  2676 browser_subagent_handler.go:145] Failed to launch browser and/or initialize extension: extension service worker not found
+2026-01-12 22:07:45.725 [info] E0112 22:07:45.724383  2676 log.go:362] failed page view for browser ephemeral message: no browser session active
+2026-01-12 22:07:45.725 [info] E0112 22:07:45.724963  2676 log.go:362] failed DOM for browser ephemeral message: no browser session active
+2026-01-12 22:07:45.725 [info] I0112 22:07:45.724963  2676 planner_generator.go:273] Requesting planner with 1 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:07:48.545 [info] I0112 22:07:48.545123  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe82bc5620285bfae
+2026-01-12 22:07:50.576 [info] I0112 22:07:50.575320  2676 operator.go:785] Updating actuation overlay for page 
+2026-01-12 22:07:50.576 [info] I0112 22:07:50.575889  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:07:50.576 [info] I0112 22:07:50.575889  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Opening URL...","passthroughEnabled":false})
+2026-01-12 22:07:54.211 [info] I0112 22:07:54.211154  2676 operator.go:817] Actuation overlay not injected yet for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:07:54.315 [info] E0112 22:07:54.315044  2676 operator.go:825] Failed to update actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84: playwright: Error: Failed to find shadow host
+2026-01-12 22:07:54.315 [info]     at window.updateActuationOverlay (eval at evaluate (:234:30), <anonymous>:2:161472)
+2026-01-12 22:07:54.315 [info]     at eval (eval at evaluate (:234:30), <anonymous>:1:8)
+2026-01-12 22:07:54.315 [info]     at eval (<anonymous>)
+2026-01-12 22:07:54.315 [info]     at UtilityScript.evaluate (<anonymous>:234:30)
+2026-01-12 22:07:54.315 [info]     at UtilityScript.<anonymous> (<anonymous>:1:44)
+2026-01-12 22:07:54.450 [info] E0112 22:07:54.450356  2676 recording_manager.go:297] failed to stop screencast for current page: page  not found
+2026-01-12 22:07:54.601 [info] I0112 22:07:54.601235  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:07:54.601 [info] I0112 22:07:54.601235  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:07:55.615 [info] I0112 22:07:55.614823  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:07:55.615 [info] I0112 22:07:55.614823  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:07:55.658 [info] I0112 22:07:55.656518  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:07:55.658 [info] I0112 22:07:55.656518  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:07:55.812 [info] I0112 22:07:55.812018  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:07:55.812 [info] I0112 22:07:55.812018  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:07:55.875 [info] I0112 22:07:55.873356  2676 planner_generator.go:273] Requesting planner with 3 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:08:00.129 [info] I0112 22:08:00.128554  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3e93f97a93b245a5
+2026-01-12 22:08:02.352 [info] I0112 22:08:02.352056  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:02.353 [info] I0112 22:08:02.352056  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":true})
+2026-01-12 22:08:02.417 [info] I0112 22:08:02.416313  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:02.417 [info] I0112 22:08:02.416313  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":false})
+2026-01-12 22:08:02.460 [info] I0112 22:08:02.460213  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:02.461 [info] I0112 22:08:02.460213  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:08:02.837 [info] I0112 22:08:02.836371  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:02.837 [info] I0112 22:08:02.837370  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:08:02.898 [info] I0112 22:08:02.897957  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:02.898 [info] I0112 22:08:02.897957  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:08:03.017 [info] I0112 22:08:03.016229  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:03.017 [info] I0112 22:08:03.016752  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:08:03.037 [info] I0112 22:08:03.036893  2676 planner_generator.go:273] Requesting planner with 5 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:08:07.127 [info] I0112 22:08:07.127091  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x840141fdd05b25b9
+2026-01-12 22:08:09.215 [info] I0112 22:08:09.214428  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:09.215 [info] I0112 22:08:09.214428  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":true,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Agent needs your input","passthroughEnabled":false})
+2026-01-12 22:08:21.844 [info] I0112 22:08:21.843359  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:21.844 [info] I0112 22:08:21.843359  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":false,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript..."})
+2026-01-12 22:08:21.862 [info] I0112 22:08:21.861687  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:21.862 [info] I0112 22:08:21.861687  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":true})
+2026-01-12 22:08:21.888 [info] I0112 22:08:21.887502  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:21.888 [info] I0112 22:08:21.887502  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":false})
+2026-01-12 22:08:21.948 [info] I0112 22:08:21.948182  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:21.948 [info] I0112 22:08:21.948182  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:08:22.191 [info] I0112 22:08:22.191272  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:22.191 [info] I0112 22:08:22.191272  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:08:22.214 [info] I0112 22:08:22.214524  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:22.215 [info] I0112 22:08:22.214524  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:08:22.280 [info] I0112 22:08:22.280346  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:22.280 [info] I0112 22:08:22.280346  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:08:22.302 [info] I0112 22:08:22.302505  2676 planner_generator.go:273] Requesting planner with 7 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:08:26.035 [info] I0112 22:08:26.034581  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1454de9df810a38
+2026-01-12 22:08:26.839 [info] I0112 22:08:26.838471  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:26.839 [info] I0112 22:08:26.838471  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":true,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Agent needs your input","passthroughEnabled":false})
+2026-01-12 22:08:28.374 [info] I0112 22:08:28.371250  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:28.374 [info] I0112 22:08:28.371250  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":false,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript..."})
+2026-01-12 22:08:28.391 [info] I0112 22:08:28.391123  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:28.391 [info] I0112 22:08:28.391123  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":true})
+2026-01-12 22:08:28.416 [info] I0112 22:08:28.416252  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:28.416 [info] I0112 22:08:28.416252  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":false})
+2026-01-12 22:08:28.485 [info] I0112 22:08:28.485309  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:28.485 [info] I0112 22:08:28.485309  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:08:28.738 [info] I0112 22:08:28.738428  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:28.738 [info] I0112 22:08:28.738428  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:08:28.762 [info] I0112 22:08:28.762201  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:28.762 [info] I0112 22:08:28.762201  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:08:28.799 [info] I0112 22:08:28.799799  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:28.800 [info] I0112 22:08:28.799799  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:08:28.827 [info] I0112 22:08:28.826823  2676 planner_generator.go:273] Requesting planner with 9 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:08:33.290 [info] I0112 22:08:33.289413  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xace6def00fdfc3c4
+2026-01-12 22:08:33.759 [info] I0112 22:08:33.759226  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:33.759 [info] I0112 22:08:33.759226  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":true})
+2026-01-12 22:08:33.818 [info] I0112 22:08:33.818228  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:33.818 [info] I0112 22:08:33.818228  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Scrolling mouse wheel...","passthroughEnabled":false})
+2026-01-12 22:08:33.857 [info] I0112 22:08:33.857200  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:33.857 [info] I0112 22:08:33.857200  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:08:34.077 [info] I0112 22:08:34.076941  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:34.077 [info] I0112 22:08:34.077465  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:08:34.095 [info] I0112 22:08:34.095026  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:34.095 [info] I0112 22:08:34.095026  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:08:34.139 [info] I0112 22:08:34.138754  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:34.139 [info] I0112 22:08:34.138754  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:08:34.157 [info] I0112 22:08:34.157186  2676 planner_generator.go:273] Requesting planner with 11 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:08:40.828 [info] I0112 22:08:40.827382  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2e341a3eae943781
+2026-01-12 22:08:41.056 [info] I0112 22:08:41.056194  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:41.057 [info] I0112 22:08:41.056194  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":true,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Agent needs your input","passthroughEnabled":false})
+2026-01-12 22:08:42.586 [info] I0112 22:08:42.585378  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:42.586 [info] I0112 22:08:42.585378  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":false,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript..."})
+2026-01-12 22:08:42.604 [info] I0112 22:08:42.604275  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:42.604 [info] I0112 22:08:42.604275  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":true})
+2026-01-12 22:08:42.626 [info] I0112 22:08:42.625894  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:42.626 [info] I0112 22:08:42.625894  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":false})
+2026-01-12 22:08:42.688 [info] I0112 22:08:42.687532  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:42.688 [info] I0112 22:08:42.687532  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:08:42.958 [info] I0112 22:08:42.958281  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:42.958 [info] I0112 22:08:42.958281  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:08:42.974 [info] I0112 22:08:42.974258  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:42.974 [info] I0112 22:08:42.974258  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:08:43.019 [info] I0112 22:08:43.018631  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:43.019 [info] I0112 22:08:43.018631  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:08:43.035 [info] I0112 22:08:43.034884  2676 planner_generator.go:273] Requesting planner with 13 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:08:49.938 [info] I0112 22:08:49.938198  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xadc10c1a41f292f1
+2026-01-12 22:08:50.455 [info] I0112 22:08:50.454992  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:50.455 [info] I0112 22:08:50.454992  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":true,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Agent needs your input","passthroughEnabled":false})
+2026-01-12 22:08:52.058 [info] I0112 22:08:52.058093  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:52.058 [info] I0112 22:08:52.058093  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":false,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript..."})
+2026-01-12 22:08:52.073 [info] I0112 22:08:52.073100  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:52.073 [info] I0112 22:08:52.073100  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":true})
+2026-01-12 22:08:52.153 [info] I0112 22:08:52.152220  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:52.153 [info] I0112 22:08:52.152220  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":false})
+2026-01-12 22:08:52.227 [info] I0112 22:08:52.226833  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:52.227 [info] I0112 22:08:52.226833  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:08:52.488 [info] I0112 22:08:52.488039  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:52.488 [info] I0112 22:08:52.488039  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:08:52.502 [info] I0112 22:08:52.501980  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:52.502 [info] I0112 22:08:52.501980  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:08:52.547 [info] I0112 22:08:52.547043  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:08:52.547 [info] I0112 22:08:52.547043  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:08:52.578 [info] I0112 22:08:52.578139  2676 planner_generator.go:273] Requesting planner with 15 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:09:01.232 [info] I0112 22:09:01.231501  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xda4438bda2af7e2
+2026-01-12 22:09:02.272 [info] I0112 22:09:02.271414  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:09:02.272 [info] I0112 22:09:02.271414  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":true,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Agent needs your input","passthroughEnabled":false})
+2026-01-12 22:09:03.506 [info] I0112 22:09:03.505683  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:09:03.506 [info] I0112 22:09:03.506438  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"awaitingUserInput":false,"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript..."})
+2026-01-12 22:09:03.522 [info] I0112 22:09:03.522302  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:09:03.522 [info] I0112 22:09:03.522302  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":true})
+2026-01-12 22:09:03.552 [info] I0112 22:09:03.551985  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:09:03.552 [info] I0112 22:09:03.551985  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Executing JavaScript...","passthroughEnabled":false})
+2026-01-12 22:09:03.633 [info] I0112 22:09:03.632995  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:09:03.633 [info] I0112 22:09:03.632995  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:09:03.926 [info] I0112 22:09:03.926252  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:09:03.926 [info] I0112 22:09:03.926252  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:09:03.944 [info] I0112 22:09:03.943648  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:09:03.944 [info] I0112 22:09:03.943648  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:09:03.985 [info] I0112 22:09:03.984836  2676 operator.go:785] Updating actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84
+2026-01-12 22:09:03.985 [info] I0112 22:09:03.984836  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"d0f689a4-f7c0-438b-bfdd-d108a31210aa","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:09:04.008 [info] I0112 22:09:04.007752  2676 planner_generator.go:273] Requesting planner with 17 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:09:07.865 [info] E0112 22:09:07.860807  2676 log.go:354] cannot combine usage stats for different models: MODEL_PLACEHOLDER_M18 and MODEL_UNSPECIFIED
+2026-01-12 22:09:07.865 [info] E0112 22:09:07.864370  2676 operator.go:773] Failed to remove actuation overlay for page 0D5849A4962F1A6CACF1487EE0154A84: context canceled
+2026-01-12 22:09:27.030 [info] (Antigravity) 2026-01-12 22:09:27.030 [INFO]: [Terminal] Command completed: npm run dev exit code 1
+2026-01-12 22:09:43.634 [info] (Antigravity) 2026-01-12 22:09:43.634 [INFO]: [Terminal] Command completed: next dev exit code 1
+2026-01-12 22:10:30.053 [info] (Antigravity) 2026-01-12 22:10:30.053 [INFO]: [Terminal] Command completed: npm run dev exit code 1
+2026-01-12 22:11:07.051 [info] E0112 22:11:07.051063  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:11:07.132 [info] I0112 22:11:07.132385  2676 planner_generator.go:273] Requesting planner with 62 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:11:10.011 [info] I0112 22:11:10.010074  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcefdd45c9b6ad22
+2026-01-12 22:11:13.016 [info] (Antigravity) 2026-01-12 22:11:13.016 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart\client' exit code 0
+2026-01-12 22:11:14.319 [info] (Antigravity) 2026-01-12 22:11:14.319 [INFO]: [Terminal] Command completed: taskkill /F /PID 18796 exit code 0
+2026-01-12 22:11:15.134 [info] (Antigravity) 2026-01-12 22:11:15.133 [INFO]: [Terminal] Command completed: npm run dev exit code 1
+2026-01-12 22:11:15.962 [info] (Antigravity) 2026-01-12 22:11:15.962 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart\client' exit code 0
+2026-01-12 22:11:17.003 [info] I0112 22:11:17.002958  2676 planner_generator.go:273] Requesting planner with 65 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:11:19.846 [info] (Antigravity) 2026-01-12 22:11:19.845 [INFO]: [Terminal] Command completed: powershell -Command "Remove-Item -Path 'D:\DuAnRieng\MemMart\client\.next\dev\lock' -Force -ErrorAction SilentlyContinue" exit code 1
+2026-01-12 22:11:20.144 [info] I0112 22:11:20.142557  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x57d2b30a18fd267c
+2026-01-12 22:11:20.426 [info] I0112 22:11:20.425478  2676 planner_generator.go:273] Requesting planner with 68 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:11:23.125 [info] I0112 22:11:23.125252  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x39926d8b082321e4
+2026-01-12 22:11:27.680 [info] (Antigravity) 2026-01-12 22:11:27.679 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart\client' exit code 0
+2026-01-12 22:11:28.726 [info] I0112 22:11:28.725893  2676 planner_generator.go:273] Requesting planner with 70 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:11:28.883 [info] (Antigravity) 2026-01-12 22:11:28.882 [INFO]: [Terminal] Command completed: netstat -ano | findstr :3000 exit code 1
+2026-01-12 22:11:30.643 [info] I0112 22:11:30.642919  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x76cff97d3828fb44
+2026-01-12 22:11:31.139 [info] I0112 22:11:31.139276  2676 planner_generator.go:273] Requesting planner with 72 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:11:33.671 [info] I0112 22:11:33.670315  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfe6198cc9eeb0e1f
+2026-01-12 22:13:27.053 [info] E0112 22:13:27.052523  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:13:27.136 [info] I0112 22:13:27.135308  2676 planner_generator.go:273] Requesting planner with 74 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:13:32.454 [info] I0112 22:13:32.453851  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc20abbb7effb4cc8
+2026-01-12 22:13:37.372 [info] I0112 22:13:37.371477  2676 planner_generator.go:273] Requesting planner with 78 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:13:38.868 [info] I0112 22:13:38.868329  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x90d2511a03c27ac3
+2026-01-12 22:13:39.017 [info] I0112 22:13:39.016505  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x732570c4d65b9912
+2026-01-12 22:13:39.687 [info] I0112 22:13:39.687189  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x715882dfb0593f6d
+2026-01-12 22:13:41.052 [info] I0112 22:13:41.052478  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc5afca6f46ad0d44
+2026-01-12 22:14:07.660 [info] E0112 22:14:07.659780  2676 log.go:354] argument order was not respected: [TargetFile Overwrite] vs [CodeContent Complexity Description Overwrite TargetFile]
+2026-01-12 22:14:09.694 [info] E0112 22:14:09.693988  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:14:09.711 [info] E0112 22:14:09.711267  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:14:09.799 [info] E0112 22:14:09.798698  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:14:09.808 [info] I0112 22:14:09.808113  2676 planner_generator.go:273] Requesting planner with 80 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:14:16.007 [info] I0112 22:14:16.006051  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6454c3899d980295
+2026-01-12 22:14:33.501 [info] E0112 22:14:33.500857  2676 log.go:354] argument order was not respected: [TargetFile Overwrite] vs [CodeContent Complexity Description Overwrite TargetFile]
+2026-01-12 22:14:35.528 [info] E0112 22:14:35.524898  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:14:35.563 [info] E0112 22:14:35.563001  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:14:35.608 [info] E0112 22:14:35.608671  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:14:35.618 [info] I0112 22:14:35.617768  2676 planner_generator.go:273] Requesting planner with 82 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:14:39.251 [info] I0112 22:14:39.250385  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf434e293e0062dc8
+2026-01-12 22:15:16.598 [info] E0112 22:15:16.597570  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:15:16.930 [info] (Antigravity) 2026-01-12 22:15:16.929 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-01-12 22:15:19.757 [info] E0112 22:15:19.756049  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:15:19.911 [info] E0112 22:15:19.911036  2676 log.go:362] Failed to set trajectory start index for sync refresh: could not convert a single message before hitting truncation
+2026-01-12 22:15:19.923 [info] E0112 22:15:19.922752  2676 log.go:362] Failed to set trajectory start index for async refresh: could not convert a single message before hitting truncation
+2026-01-12 22:15:22.980 [info] E0112 22:15:22.980026  2676 log.go:362] Failed to set trajectory start index for sync refresh: could not convert a single message before hitting truncation
+2026-01-12 22:15:23.003 [info] E0112 22:15:23.002569  2676 log.go:362] Failed to set trajectory start index for async refresh: could not convert a single message before hitting truncation
+2026-01-12 22:15:26.810 [info] E0112 22:15:26.809593  2676 log.go:362] Failed to set trajectory start index for async refresh: could not convert a single message before hitting truncation
+2026-01-12 22:15:42.693 [info] E0112 22:15:42.692330  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:15:43.205 [info] E0112 22:15:43.204809  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:15:43.363 [info] E0112 22:15:43.362800  2676 log.go:354] Unexpected trajectory length without refork: trajectoryStartIndex 1740 is greater than trajectory length 1739
+2026-01-12 22:15:55.191 [info] E0112 22:15:55.191160  2676 log.go:362] Failed to set trajectory start index for sync refresh: could not convert a single message before hitting truncation
+2026-01-12 22:15:55.206 [info] E0112 22:15:55.205546  2676 log.go:362] Failed to set trajectory start index for async refresh: could not convert a single message before hitting truncation
+2026-01-12 22:18:02.563 [info] E0112 22:18:02.562769  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:18:02.622 [info] E0112 22:18:02.621686  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:02.652 [info] E0112 22:18:02.651708  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:02.658 [info] I0112 22:18:02.657702  2676 planner_generator.go:273] Requesting planner with 88 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:18:08.344 [info] I0112 22:18:08.342742  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbed567afd6cb056d
+2026-01-12 22:18:19.258 [info] E0112 22:18:19.256604  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:19.299 [info] E0112 22:18:19.298771  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:19.338 [info] E0112 22:18:19.338046  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:19.342 [info] I0112 22:18:19.342450  2676 planner_generator.go:273] Requesting planner with 92 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:18:23.265 [info] E0112 22:18:23.264671  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:18:23.479 [info] E0112 22:18:23.478148  2676 log.go:362] Failed to set trajectory start index for sync refresh: could not convert a single message before hitting truncation
+2026-01-12 22:18:23.489 [info] E0112 22:18:23.489217  2676 log.go:362] Failed to set trajectory start index for async refresh: could not convert a single message before hitting truncation
+2026-01-12 22:18:24.368 [info] I0112 22:18:24.367749  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa48cf3fa73b2fb21
+2026-01-12 22:18:24.601 [info] E0112 22:18:24.601235  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:18:25.578 [info] E0112 22:18:25.577540  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:25.606 [info] E0112 22:18:25.606618  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:25.626 [info] E0112 22:18:25.624249  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:25.630 [info] I0112 22:18:25.629584  2676 planner_generator.go:273] Requesting planner with 94 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:18:29.468 [info] I0112 22:18:29.468342  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8e2cc2d942e0a22a
+2026-01-12 22:18:38.058 [info] E0112 22:18:38.058655  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:18:38.217 [info] (Antigravity) 2026-01-12 22:18:38.217 [INFO]: Failed to save document /d:/DuAnRieng/MemMart/client/app/(dashboard)/dashboard/page.tsx during agent edit
+2026-01-12 22:18:38.424 [info] E0112 22:18:38.423716  2676 log.go:362] Failed to set trajectory start index for async refresh: could not convert a single message before hitting truncation
+2026-01-12 22:18:40.088 [info] E0112 22:18:40.088199  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:40.100 [info] E0112 22:18:40.100187  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:40.119 [info] E0112 22:18:40.119468  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:40.126 [info] I0112 22:18:40.125886  2676 planner_generator.go:273] Requesting planner with 96 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:18:44.471 [info] I0112 22:18:44.470673  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9dac4335165a1e81
+2026-01-12 22:18:48.106 [info] E0112 22:18:48.105734  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:18:48.175 [info] (Antigravity) 2026-01-12 22:18:48.175 [INFO]: Failed to save document /d:/DuAnRieng/MemMart/client/app/(dashboard)/documents/page.tsx during agent edit
+2026-01-12 22:18:50.141 [info] E0112 22:18:50.141196  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:50.154 [info] E0112 22:18:50.153292  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:50.176 [info] E0112 22:18:50.175752  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:18:50.180 [info] I0112 22:18:50.179579  2676 planner_generator.go:273] Requesting planner with 98 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:18:53.719 [info] I0112 22:18:53.719212  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x47c358974647f9fa
+2026-01-12 22:19:14.603 [info] E0112 22:19:14.602297  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:19:16.637 [info] E0112 22:19:16.636434  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:19:16.651 [info] E0112 22:19:16.651351  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:19:16.673 [info] E0112 22:19:16.671709  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:19:16.677 [info] I0112 22:19:16.677364  2676 planner_generator.go:273] Requesting planner with 100 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:19:19.820 [info] I0112 22:19:19.820029  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x67ca0893e06b1d16
+2026-01-12 22:19:36.790 [info] E0112 22:19:36.790358  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:19:38.836 [info] E0112 22:19:38.835288  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:19:38.905 [info] E0112 22:19:38.904932  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:19:38.936 [info] E0112 22:19:38.936311  2676 log.go:354] Checkpoint summary was too long and was truncated to 7500 tokens
+2026-01-12 22:19:38.943 [info] I0112 22:19:38.943087  2676 planner_generator.go:273] Requesting planner with 102 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:19:43.314 [info] I0112 22:19:43.314054  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb2072e0a3698eff1
+2026-01-12 22:19:52.470 [info] W0112 22:19:52.469276  2676 browser_subagent_handler.go:145] Failed to launch browser and/or initialize extension: extension service worker not found
+2026-01-12 22:19:52.474 [info] E0112 22:19:52.474673  2676 log.go:362] failed page view for browser ephemeral message: no browser session active
+2026-01-12 22:19:52.475 [info] E0112 22:19:52.474673  2676 log.go:362] failed DOM for browser ephemeral message: no browser session active
+2026-01-12 22:19:52.475 [info] I0112 22:19:52.475261  2676 planner_generator.go:273] Requesting planner with 1 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:19:52.478 [info] E0112 22:19:52.477986  2676 log.go:362] failed to remove actuation overlay: page not found
+2026-01-12 22:23:17.391 [info] E0112 22:23:17.390949  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:23:17.564 [info] I0112 22:23:17.564094  2676 planner_generator.go:273] Requesting planner with 3 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:23:17.736 [info] E0112 22:23:17.736176  2676 repo.go:347] failed to create patch for untracked file client/: read d:/DuAnRieng/MemMart/client: Incorrect function.
+2026-01-12 22:23:21.761 [info] I0112 22:23:21.761067  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5856c0e426981e71
+2026-01-12 22:23:40.021 [info] E0112 22:23:40.020996  2676 log.go:362] artifact metadata is required when IsArtifact is true
+2026-01-12 22:23:40.024 [info] I0112 22:23:40.023054  2676 planner_generator.go:273] Requesting planner with 5 chat messages at model retry attempt 2 and API retry attempt 1
+2026-01-12 22:23:46.374 [info] I0112 22:23:46.373691  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe74732697e7b87f7
+2026-01-12 22:23:46.970 [info] E0112 22:23:46.970179  2676 log.go:354] argument order was not respected: [TargetFile Overwrite] vs [ArtifactMetadata CodeContent Complexity Description EmptyFile IsArtifact Overwrite TargetFile]
+2026-01-12 22:23:47.138 [info] E0112 22:23:46.988443  2676 log.go:354] argument order was not respected: [TaskName Mode PredictedTaskSize] vs [Mode PredictedTaskSize TaskName TaskStatus TaskSummary]
+2026-01-12 22:23:47.361 [info] I0112 22:23:47.360230  2676 planner_generator.go:273] Requesting planner with 7 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:23:48.475 [info] I0112 22:23:48.474664  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf59b04edba671012
+2026-01-12 22:23:51.388 [info] I0112 22:23:51.388007  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7e95ee3a97a692a8
+2026-01-12 22:23:52.367 [info] I0112 22:23:52.366514  2676 planner_generator.go:273] Requesting planner with 11 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:23:56.623 [info] I0112 22:23:56.622622  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x855271bbe76158ae
+2026-01-12 22:23:58.353 [info] I0112 22:23:58.353174  2676 planner_generator.go:273] Requesting planner with 14 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:24:02.879 [info] I0112 22:24:02.878252  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbac2cee36ef24994
+2026-01-12 22:24:12.008 [info] E0112 22:24:12.007355  2676 log.go:354] argument order was not respected: [TaskName Mode PredictedTaskSize] vs [Mode PredictedTaskSize TaskName TaskStatus TaskSummary]
+2026-01-12 22:24:12.039 [info] I0112 22:24:12.038844  2676 planner_generator.go:273] Requesting planner with 17 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:24:17.552 [info] I0112 22:24:17.551934  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc0d688bccbc520a3
+2026-01-12 22:24:20.673 [info] I0112 22:24:20.670243  2676 planner_generator.go:273] Requesting planner with 20 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:24:25.063 [info] I0112 22:24:25.063230  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcaf5c8d6811b3b7a
+2026-01-12 22:24:33.328 [info] E0112 22:24:33.327965  2676 log.go:354] argument order was not respected: [TaskName Mode PredictedTaskSize] vs [Mode PredictedTaskSize TaskName TaskStatus TaskSummary]
+2026-01-12 22:24:33.406 [info] I0112 22:24:33.405701  2676 planner_generator.go:273] Requesting planner with 23 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:24:39.763 [info] I0112 22:24:39.762014  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc970c67ed04cd0c5
+2026-01-12 22:24:52.718 [info] E0112 22:24:52.717768  2676 log.go:354] argument order was not respected: [TaskName Mode PredictedTaskSize] vs [Mode PredictedTaskSize TaskName TaskStatus TaskSummary]
+2026-01-12 22:24:52.753 [info] I0112 22:24:52.753119  2676 planner_generator.go:273] Requesting planner with 26 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:24:57.656 [info] I0112 22:24:57.655854  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6668cc12a1447ae8
+2026-01-12 22:25:08.535 [info] E0112 22:25:08.534834  2676 log.go:354] argument order was not respected: [TargetFile Overwrite] vs [ArtifactMetadata CodeContent Complexity Description EmptyFile IsArtifact Overwrite TargetFile]
+2026-01-12 22:25:08.885 [info] I0112 22:25:08.884006  2676 planner_generator.go:273] Requesting planner with 28 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:25:13.373 [info] I0112 22:25:13.373253  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xaaa78258b739eca4
+2026-01-12 22:25:17.440 [info] E0112 22:25:17.440161  2676 log.go:354] argument order was not respected: [TaskName Mode PredictedTaskSize] vs [Mode PredictedTaskSize TaskName TaskStatus TaskSummary]
+2026-01-12 22:25:17.454 [info] E0112 22:25:17.453243  2676 log.go:354] argument order was not respected: [TargetFile] vs [ArtifactMetadata CodeMarkdownLanguage Complexity Description Instruction ReplacementChunks TargetFile]
+2026-01-12 22:25:17.464 [info] E0112 22:25:17.464330  2676 log.go:362] error executing cascade step: CORTEX_STEP_TYPE_CODE_ACTION: Could not successfully apply any edits. Please review the file and try smaller edits that you are more confident about.: chunk 0: target content not found in file
+2026-01-12 22:25:17.483 [info] I0112 22:25:17.483269  2676 planner_generator.go:273] Requesting planner with 31 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:25:22.138 [info] I0112 22:25:22.137957  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x17e2b0e72eafd80e
+2026-01-12 22:25:22.776 [info] I0112 22:25:22.776248  2676 planner_generator.go:273] Requesting planner with 33 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:25:31.285 [info] I0112 22:25:31.285175  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xba4c38157e656436
+2026-01-12 22:25:32.250 [info] E0112 22:25:32.249628  2676 log.go:354] argument order was not respected: [TargetFile] vs [ArtifactMetadata CodeMarkdownLanguage Complexity Description Instruction ReplacementChunks TargetFile]
+2026-01-12 22:25:32.275 [info] E0112 22:25:32.274761  2676 log.go:354] argument order was not respected: [PathsToReview BlockedOnUser] vs [BlockedOnUser Message PathsToReview ShouldAutoProceed]
+2026-01-12 22:26:15.050 [info] E0112 22:26:15.049070  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:26:15.128 [info] I0112 22:26:15.124113  2676 planner_generator.go:273] Requesting planner with 37 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:26:20.579 [info] I0112 22:26:20.578994  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6d954bd4f5af2f16
+2026-01-12 22:26:43.081 [info] E0112 22:26:43.080445  2676 log.go:354] argument order was not respected: [TargetFile Overwrite] vs [CodeContent Complexity Description EmptyFile Overwrite TargetFile]
+2026-01-12 22:26:45.113 [info] I0112 22:26:45.113090  2676 planner_generator.go:273] Requesting planner with 39 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:26:48.908 [info] I0112 22:26:48.907532  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4b5cfe6c6c1d2b1f
+2026-01-12 22:26:48.911 [info] E0112 22:26:48.911068  2676 log.go:362] encountered an improper format stop reason
+2026-01-12 22:26:48.923 [info] I0112 22:26:48.923307  2676 planner_generator.go:273] Requesting planner with 41 chat messages at model retry attempt 2 and API retry attempt 1
+2026-01-12 22:26:53.586 [info] I0112 22:26:53.585683  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7730cef682b438ea
+2026-01-12 22:27:17.085 [info] E0112 22:27:17.084161  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:27:17.158 [info] E0112 22:27:17.157877  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:27:20.876 [info] I0112 22:27:20.876181  2676 planner_generator.go:273] Requesting planner with 44 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:27:24.982 [info] I0112 22:27:24.981768  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x769a9672cd016bb6
+2026-01-12 22:27:28.508 [info] I0112 22:27:28.508407  2676 planner_generator.go:273] Requesting planner with 46 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:27:33.683 [info] I0112 22:27:33.682854  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd342165bbf65290
+2026-01-12 22:27:33.755 [info] I0112 22:27:33.754905  2676 planner_generator.go:273] Requesting planner with 48 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:27:38.447 [info] I0112 22:27:38.447354  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x482219442070819a
+2026-01-12 22:27:48.469 [info] E0112 22:27:48.468388  2676 log.go:362] encountered an improper format stop reason
+2026-01-12 22:27:48.476 [info] I0112 22:27:48.476024  2676 planner_generator.go:273] Requesting planner with 50 chat messages at model retry attempt 2 and API retry attempt 1
+2026-01-12 22:27:51.987 [info] I0112 22:27:51.986625  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb3dd076418862dd1
+2026-01-12 22:28:02.748 [info] (Antigravity) 2026-01-12 22:28:02.747 [INFO]: [Terminal] Command completed: cd 'd:\DuAnRieng\MemMart\client' exit code 0
+2026-01-12 22:28:07.325 [info] I0112 22:28:07.324220  2676 planner_generator.go:273] Requesting planner with 52 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:28:10.887 [info] I0112 22:28:10.886944  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7880671c20035d61
+2026-01-12 22:28:15.940 [info] I0112 22:28:15.939295  2676 planner_generator.go:273] Requesting planner with 54 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:28:22.503 [info] I0112 22:28:22.502667  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x415bee7a7487bdd4
+2026-01-12 22:28:22.504 [info] E0112 22:28:22.503605  2676 log.go:354] argument order was not respected: [TargetFile] vs [ArtifactMetadata CodeMarkdownLanguage Complexity Description Instruction ReplacementChunks TargetFile]
+2026-01-12 22:28:22.751 [info] I0112 22:28:22.750750  2676 planner_generator.go:273] Requesting planner with 56 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:28:28.206 [info] I0112 22:28:28.206565  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x457dfaa507cdd304
+2026-01-12 22:28:28.208 [info] E0112 22:28:28.208120  2676 log.go:362] encountered an improper format stop reason
+2026-01-12 22:28:28.227 [info] I0112 22:28:28.222590  2676 planner_generator.go:273] Requesting planner with 58 chat messages at model retry attempt 2 and API retry attempt 1
+2026-01-12 22:28:31.792 [info] I0112 22:28:31.791559  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb5284ffb9f4c0963
+2026-01-12 22:28:31.812 [info] W0112 22:28:31.812004  2676 browser_subagent_handler.go:145] Failed to launch browser and/or initialize extension: extension service worker not found
+2026-01-12 22:28:31.819 [info] E0112 22:28:31.817837  2676 log.go:362] failed page view for browser ephemeral message: no browser session active
+2026-01-12 22:28:31.819 [info] E0112 22:28:31.817837  2676 log.go:362] failed DOM for browser ephemeral message: no browser session active
+2026-01-12 22:28:31.820 [info] I0112 22:28:31.819368  2676 planner_generator.go:273] Requesting planner with 1 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:28:34.073 [info] I0112 22:28:34.073309  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbf3720ad21bfb71
+2026-01-12 22:28:37.146 [info] I0112 22:28:37.145384  2676 operator.go:785] Updating actuation overlay for page 
+2026-01-12 22:28:37.146 [info] I0112 22:28:37.145904  2676 operator.go:785] Updating actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:37.146 [info] I0112 22:28:37.145904  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"16494b98-63d6-47f2-8e1f-99a745219cdf","displayString":"Opening URL...","passthroughEnabled":false})
+2026-01-12 22:28:37.185 [info] I0112 22:28:37.185033  2676 operator.go:817] Actuation overlay not injected yet for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:37.313 [info] E0112 22:28:37.313350  2676 operator.go:825] Failed to update actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15: playwright: Error: Failed to find shadow host
+2026-01-12 22:28:37.313 [info]     at window.updateActuationOverlay (eval at evaluate (:234:30), <anonymous>:2:161472)
+2026-01-12 22:28:37.313 [info]     at eval (eval at evaluate (:234:30), <anonymous>:1:8)
+2026-01-12 22:28:37.313 [info]     at eval (<anonymous>)
+2026-01-12 22:28:37.314 [info]     at UtilityScript.evaluate (<anonymous>:234:30)
+2026-01-12 22:28:37.314 [info]     at UtilityScript.<anonymous> (<anonymous>:1:44)
+2026-01-12 22:28:37.363 [info] E0112 22:28:37.363270  2676 recording_manager.go:297] failed to stop screencast for current page: page  not found
+2026-01-12 22:28:37.435 [info] I0112 22:28:37.434073  2676 operator.go:785] Updating actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:37.435 [info] I0112 22:28:37.434073  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:28:38.149 [info] I0112 22:28:38.148012  2676 operator.go:785] Updating actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:38.152 [info] I0112 22:28:38.149525  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:28:38.304 [info] I0112 22:28:38.303759  2676 operator.go:785] Updating actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:38.304 [info] I0112 22:28:38.304271  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"16494b98-63d6-47f2-8e1f-99a745219cdf","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:28:38.473 [info] I0112 22:28:38.473161  2676 operator.go:785] Updating actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:38.473 [info] I0112 22:28:38.473161  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"16494b98-63d6-47f2-8e1f-99a745219cdf","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:28:38.587 [info] I0112 22:28:38.587263  2676 planner_generator.go:273] Requesting planner with 3 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:28:41.478 [info] I0112 22:28:41.478158  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd623a540fc3880af
+2026-01-12 22:28:44.074 [info] I0112 22:28:44.074092  2676 operator.go:785] Updating actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:44.074 [info] I0112 22:28:44.074092  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":true})
+2026-01-12 22:28:44.547 [info] I0112 22:28:44.546218  2676 operator.go:785] Updating actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:44.547 [info] I0112 22:28:44.546218  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
+2026-01-12 22:28:44.860 [info] I0112 22:28:44.859641  2676 operator.go:817] Actuation overlay not injected yet for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:44.860 [info] E0112 22:28:44.859641  2676 operator.go:820] Failed to inject actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15: context canceled
+2026-01-12 22:28:44.861 [info] I0112 22:28:44.860653  2676 operator.go:785] Updating actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:44.861 [info] I0112 22:28:44.860653  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"16494b98-63d6-47f2-8e1f-99a745219cdf","displayString":"Getting DOM...","passthroughEnabled":true})
+2026-01-12 22:28:44.861 [info] I0112 22:28:44.860653  2676 operator.go:817] Actuation overlay not injected yet for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:44.861 [info] E0112 22:28:44.860653  2676 operator.go:820] Failed to inject actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15: context canceled
+2026-01-12 22:28:44.864 [info] I0112 22:28:44.863663  2676 operator.go:785] Updating actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:44.864 [info] I0112 22:28:44.863663  2676 operator.go:814] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"16494b98-63d6-47f2-8e1f-99a745219cdf","displayString":"Getting DOM...","passthroughEnabled":false})
+2026-01-12 22:28:44.864 [info] I0112 22:28:44.863663  2676 operator.go:817] Actuation overlay not injected yet for page B5EA6BED2E34E8007BBB5DF2F8F2CD15
+2026-01-12 22:28:44.865 [info] E0112 22:28:44.863663  2676 operator.go:820] Failed to inject actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15: context canceled
+2026-01-12 22:28:44.866 [info] I0112 22:28:44.865665  2676 planner_generator.go:273] Requesting planner with 5 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:28:44.877 [info] E0112 22:28:44.876613  2676 log.go:354] cannot combine usage stats for different models: MODEL_PLACEHOLDER_M18 and MODEL_UNSPECIFIED
+2026-01-12 22:28:44.881 [info] E0112 22:28:44.880222  2676 operator.go:773] Failed to remove actuation overlay for page B5EA6BED2E34E8007BBB5DF2F8F2CD15: context canceled
+2026-01-12 22:29:36.043 [info] (Antigravity) 2026-01-12 22:29:36.043 [INFO]: [Terminal] Command completed: npm run lint exit code 1
+2026-01-12 22:29:56.046 [info] (Antigravity) 2026-01-12 22:29:56.045 [INFO]: [Terminal] Command completed: npm run dev exit code 1
+2026-01-12 22:29:58.216 [info] (Antigravity) 2026-01-12 22:29:58.215 [INFO]: [Terminal] Command completed: npm run dev exit code 1
+2026-01-12 22:31:47.060 [info] E0112 22:31:47.059890  2676 log.go:354] error converting token count to int: unleashWrapper is nil
+2026-01-12 22:31:47.278 [info] E0112 22:31:47.277832  2676 log.go:362] Failed to generate commit message: error grabbing LLM response: stream error
+2026-01-12 22:31:47.280 [info] E0112 22:31:47.279432  2676 interceptor.go:74] /exa.language_server_pb.LanguageServerService/GenerateCommitMessage (unknown): error grabbing LLM response: stream error
+2026-01-12 22:32:47.877 [info] (Antigravity) 2026-01-12 22:32:47.876 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-01-12 22:32:54.198 [info] E0112 22:32:54.197221  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:32:54.826 [info] E0112 22:32:54.825564  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:32:56.915 [info] E0112 22:32:56.914768  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:32:57.867 [info] E0112 22:32:57.867237  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:32:58.508 [info] E0112 22:32:58.507840  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:03.915 [info] E0112 22:33:03.914791  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:04.555 [info] E0112 22:33:04.555006  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:05.072 [info] E0112 22:33:05.071523  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:06.366 [info] E0112 22:33:06.365939  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:06.865 [info] E0112 22:33:06.865545  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:07.172 [info] E0112 22:33:07.172129  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:08.555 [info] E0112 22:33:08.554489  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:09.055 [info] E0112 22:33:09.054927  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:14.898 [info] E0112 22:33:14.897712  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:15.563 [info] E0112 22:33:15.563307  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:17.754 [info] E0112 22:33:17.753577  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:18.430 [info] E0112 22:33:18.429597  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:18.930 [info] E0112 22:33:18.929470  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:19.839 [info] E0112 22:33:19.838890  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:20.868 [info] E0112 22:33:20.868109  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:21.605 [info] E0112 22:33:21.605104  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:22.136 [info] E0112 22:33:22.135776  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:22.806 [info] E0112 22:33:22.806037  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:23.306 [info] E0112 22:33:23.306561  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:23.973 [info] E0112 22:33:23.972322  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 22:33:58.752 [info] (Antigravity) 2026-01-12 22:33:58.751 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-01-12 22:33:59.565 [info] (Antigravity) 2026-01-12 22:33:59.564 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-01-12 22:34:22.358 [info] (Antigravity) 2026-01-12 22:34:22.357 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-01-12 22:37:52.649 [info] E0112 22:37:52.648164  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:37:52.829 [info] I0112 22:37:52.809122  2676 planner_generator.go:273] Requesting planner with 62 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:37:58.681 [info] I0112 22:37:58.680797  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x24652d8865eb9ba4
+2026-01-12 22:38:11.296 [info] I0112 22:38:11.295191  2676 planner_generator.go:273] Requesting planner with 64 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:38:16.460 [info] I0112 22:38:16.459442  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x115f08ad6e8ff657
+2026-01-12 22:38:16.569 [info] I0112 22:38:16.568752  2676 planner_generator.go:273] Requesting planner with 66 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:38:21.569 [info] I0112 22:38:21.568646  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x24cddd0f9a8fe455
+2026-01-12 22:38:26.407 [info] I0112 22:38:26.406726  2676 planner_generator.go:273] Requesting planner with 68 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:38:31.277 [info] I0112 22:38:31.276571  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4446124b3bd3d156
+2026-01-12 22:38:34.486 [info] I0112 22:38:34.485853  2676 planner_generator.go:273] Requesting planner with 70 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:38:40.745 [info] I0112 22:38:40.744224  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfd12ff74aa3d241c
+2026-01-12 22:38:43.691 [info] I0112 22:38:43.687521  2676 planner_generator.go:273] Requesting planner with 72 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:38:48.804 [info] I0112 22:38:48.803605  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x22966b3edb8761a1
+2026-01-12 22:38:55.360 [info] I0112 22:38:55.359777  2676 planner_generator.go:273] Requesting planner with 74 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:38:58.354 [info] I0112 22:38:58.353392  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x76968281ce541302
+2026-01-12 22:38:58.447 [info] I0112 22:38:58.446855  2676 planner_generator.go:273] Requesting planner with 76 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:39:02.122 [info] I0112 22:39:02.121211  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2866fcfa50d77faf
+2026-01-12 22:39:02.615 [info] I0112 22:39:02.607632  2676 planner_generator.go:273] Requesting planner with 78 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:39:07.565 [info] I0112 22:39:07.564646  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x71a3af437166a726
+2026-01-12 22:39:11.541 [info] I0112 22:39:11.536961  2676 planner_generator.go:273] Requesting planner with 80 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:39:16.525 [info] I0112 22:39:16.524271  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdef4994740547bf9
+2026-01-12 22:41:02.068 [info] E0112 22:41:02.067805  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:41:02.199 [info] I0112 22:41:02.197938  2676 planner_generator.go:273] Requesting planner with 82 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:41:05.907 [info] I0112 22:41:05.906382  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7f9c58dd05f949b2
+2026-01-12 22:41:06.265 [info] I0112 22:41:06.265090  2676 planner_generator.go:273] Requesting planner with 85 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:41:07.768 [info] I0112 22:41:07.768092  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x14cfa45698e28d08
+2026-01-12 22:41:08.032 [info] I0112 22:41:08.032051  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3c5825c70e3a2f16
+2026-01-12 22:41:08.123 [info] I0112 22:41:08.122646  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x623db29d6824d6c0
+2026-01-12 22:41:09.900 [info] I0112 22:41:09.900509  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe10c500757a15a9a
+2026-01-12 22:41:23.908 [info] E0112 22:41:23.908654  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:41:24.061 [info] I0112 22:41:24.061557  2676 planner_generator.go:273] Requesting planner with 87 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:41:28.703 [info] I0112 22:41:28.702904  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5054011e0c61c6c6
+2026-01-12 22:41:33.724 [info] E0112 22:41:33.718523  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:41:35.838 [info] I0112 22:41:35.837428  2676 planner_generator.go:273] Requesting planner with 89 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:41:39.162 [info] I0112 22:41:39.162649  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9431323c1f66cd25
+2026-01-12 22:42:24.509 [info] E0112 22:42:24.508771  2676 log.go:354] Checkpoint summary exceeded the max output token limit of 16384
+2026-01-12 22:42:24.510 [info] E0112 22:42:24.509947  2676 log.go:362] error executing cascade step: CORTEX_STEP_TYPE_CHECKPOINT: Checkpoint summary exceeded the max output token limit of 16384
+2026-01-12 22:44:07.566 [info] E0112 22:44:07.565388  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 22:44:07.682 [info] I0112 22:44:07.682150  2676 planner_generator.go:273] Requesting planner with 91 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:44:13.153 [info] I0112 22:44:13.153460  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x96305127edb5f173
+2026-01-12 22:44:31.218 [info] I0112 22:44:31.218277  2676 planner_generator.go:273] Requesting planner with 94 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:44:32.786 [info] I0112 22:44:32.785420  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6365126d4351b905
+2026-01-12 22:44:32.872 [info] I0112 22:44:32.871225  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc6dea0514684de37
+2026-01-12 22:44:33.295 [info] I0112 22:44:33.294883  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x86fd0fb7f1682bcb
+2026-01-12 22:44:35.337 [info] I0112 22:44:35.337171  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb5433c5a74f4ef8c
+2026-01-12 22:44:35.379 [info] E0112 22:44:35.378459  2676 log.go:354] unexpectedly truncated to tool call: first prompt has 1 tool calls, source: CHAT_MESSAGE_SOURCE_SYSTEM
+2026-01-12 22:44:35.513 [info] I0112 22:44:35.512749  2676 planner_generator.go:273] Requesting planner with 96 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:44:41.000 [info] I0112 22:44:41.000393  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x220007c3f335880c
+2026-01-12 22:44:41.049 [info] E0112 22:44:41.048637  2676 log.go:354] argument order was not respected: [TargetFile Overwrite] vs [CodeContent Complexity Description EmptyFile Overwrite TargetFile]
+2026-01-12 22:44:43.180 [info] I0112 22:44:43.178209  2676 planner_generator.go:273] Requesting planner with 98 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:44:48.151 [info] I0112 22:44:48.151056  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa51ba20279314cc4
+2026-01-12 22:44:48.168 [info] E0112 22:44:48.167816  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:44:50.246 [info] I0112 22:44:50.246165  2676 planner_generator.go:273] Requesting planner with 100 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:44:54.881 [info] I0112 22:44:54.881166  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6ecb2f9f68ff6de
+2026-01-12 22:44:56.052 [info] E0112 22:44:56.051512  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:44:57.002 [info] E0112 22:44:57.002394  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:44:57.024 [info] E0112 22:44:57.024360  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:45:00.027 [info] I0112 22:45:00.024432  2676 planner_generator.go:273] Requesting planner with 104 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:45:34.970 [info] (Antigravity) 2026-01-12 22:45:34.970 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-01-12 22:45:35.866 [info] I0112 22:45:35.865599  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbd9a339e2a417330
+2026-01-12 22:45:35.872 [info] E0112 22:45:35.870249  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 22:45:37.952 [info] I0112 22:45:37.952257  2676 planner_generator.go:273] Requesting planner with 106 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 22:45:42.910 [info] I0112 22:45:42.909930  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9be6f1ab45ec2c5d
+2026-01-12 22:49:33.044 [info] (Antigravity) 2026-01-12 22:49:33.044 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-01-12 23:01:45.788 [info] E0112 23:01:45.786280  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 23:01:46.288 [info] E0112 23:01:46.287673  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 23:01:46.787 [info] E0112 23:01:46.787321  2676 log.go:354] queryText was truncated because it was longer than the allowed byte length 1500
+2026-01-12 23:01:46.950 [info] (Antigravity) 2026-01-12 23:01:46.950 [INFO]: [SupercompleteProvider] No supercomplete response
+2026-01-12 23:15:10.579 [info] E0112 23:15:10.578657  2676 log.go:354] encountered conflicting override on experiment: cascade-knowledge-config
+2026-01-12 23:15:11.046 [info] I0112 23:15:11.045631  2676 planner_generator.go:273] Requesting planner with 111 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 23:15:18.210 [info] I0112 23:15:18.209502  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x183918313cf17280
+2026-01-12 23:15:38.872 [info] I0112 23:15:38.872054  2676 planner_generator.go:273] Requesting planner with 114 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 23:15:51.691 [info] I0112 23:15:51.690013  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x60ba36260e199242
+2026-01-12 23:15:51.718 [info] E0112 23:15:51.717720  2676 log.go:354] argument order was not respected: [TargetFile] vs [AllowMultiple CodeMarkdownLanguage Complexity Description EndLine Instruction ReplacementContent StartLine TargetContent TargetFile]
+2026-01-12 23:15:54.035 [info] I0112 23:15:54.033993  2676 planner_generator.go:273] Requesting planner with 116 chat messages at model retry attempt 1 and API retry attempt 1
+2026-01-12 23:15:58.087 [info] I0112 23:15:58.086885  2676 http_helpers.go:129] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa10edfefb9a99e35
+2026-01-12 23:16:36.153 [info] (Antigravity) 2026-01-12 23:16:36.152 [INFO]: [SupercompleteProvider] No supercomplete response

@@ -1,0 +1,26 @@
+2026-01-14 22:20:32.084 [info] Extension host with pid 16076 started
+2026-01-14 22:20:32.084 [info] Skipping acquiring lock for c:\Users\Admin\AppData\Roaming\Antigravity\User\workspaceStorage\f37793291fb38631027c932ebba4258e.
+2026-01-14 22:20:32.113 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-14 22:20:32.227 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2026-01-14 22:20:32.303 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2026-01-14 22:20:32.444 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-01-14 22:20:32.638 [info] ExtensionService#_doActivateExtension google.antigravity, startup: false, activationEvent: '*'
+2026-01-14 22:20:33.527 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-01-14 22:20:34.516 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-14 22:20:35.016 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2026-01-14 22:20:40.914 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-14 22:20:41.043 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-14 22:20:41.309 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-01-14 22:20:43.426 [info] ExtensionService#_doActivateExtension google.antigravity-browser-launcher, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 22:20:43.488 [info] ExtensionService#_doActivateExtension Google LLC.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 22:20:43.553 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 22:20:43.626 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 22:20:44.120 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 22:20:45.243 [info] ExtensionService#_doActivateExtension henrikdev.ag-quota, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 22:20:45.718 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 22:20:45.938 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 22:20:46.952 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-01-14 22:20:52.988 [info] Eager extensions activated
+2026-01-14 22:20:53.296 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-01-14 23:05:15.656 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-14 23:05:15.849 [info] Extension host with pid 16076 exiting with code 0

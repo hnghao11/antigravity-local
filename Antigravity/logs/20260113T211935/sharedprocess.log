@@ -1,0 +1,15 @@
+2026-01-13 21:19:49.559 [info] Getting Manifest... meta.pyrefly
+2026-01-13 21:19:51.780 [info] Installing extension: meta.pyrefly {"productVersion":{"version":"1.104.0","date":"2025-12-19T21:03:14.401Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json","path":"/c:/Users/Admin/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-13 21:19:52.326 [info] Getting Manifest... ms-python.python
+2026-01-13 21:20:03.747 [info] Extracted extension to file:///c%3A/Users/Admin/.antigravity/extensions/meta.pyrefly-0.48.0-win32-x64: meta.pyrefly
+2026-01-13 21:20:03.783 [info] Renamed to c:\Users\Admin\.antigravity\extensions\meta.pyrefly-0.48.0-win32-x64
+2026-01-13 21:20:03.862 [info] Marked extension as removed meta.pyrefly-0.47.0-win32-x64
+2026-01-13 21:20:03.992 [info] Extension installed successfully: meta.pyrefly vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json
+2026-01-13 21:20:03.992 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at ea.value (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62540)
+    at D.C (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2373)
+    at D (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2443)
+    at D.fire (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2660)
+    at Nu.L (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10718)
+    at async Nu.installGalleryExtensions (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2499)
+    at async Nu.installFromGallery (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1748)

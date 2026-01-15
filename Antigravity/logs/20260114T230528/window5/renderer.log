@@ -1,0 +1,69 @@
+2026-01-14 23:26:48.586 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.606 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.606 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.607 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.607 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.607 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.607 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.607 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.608 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.608 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.608 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.608 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.608 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.608 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.608 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-14 23:26:48.980 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-01-14 23:26:48.981 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-01-14 23:26:49.004 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-01-14 23:26:49.004 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-01-14 23:26:49.011 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-01-14 23:26:49.011 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-01-14 23:26:49.143 [info] Started local extension host with pid 15044.
+2026-01-14 23:26:49.841 [warning] No search provider registered for scheme: file, waiting
+2026-01-14 23:26:50.653 [error] [Extension Host] Failed to update user status Error: LanguageServerClient must be initialized first!
+	at B.getInstance (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:215103)
+	at a.updateUserStatus (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262153)
+	at a.restartUpdateLoop (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:1262644)
+	at t.activate (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\dist\extension.js:2:164409)
+	at async jy.n (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:14106)
+	at async jy.m (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:14069)
+	at async jy.l (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:13525)
+2026-01-14 23:35:31.119 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-01-14 23:35:31.120 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-01-14 23:35:31.126 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-01-14 23:35:31.127 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-01-14 23:36:56.540 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:36:56.541 [error] [Extension Host] 2026-01-14T16:36:56.539Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:38:56.546 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:38:56.546 [error] [Extension Host] 2026-01-14T16:38:56.545Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:40:56.556 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:40:56.556 [error] [Extension Host] 2026-01-14T16:40:56.554Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:42:56.566 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:42:56.566 [error] [Extension Host] 2026-01-14T16:42:56.565Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:44:56.568 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:44:56.569 [error] [Extension Host] 2026-01-14T16:44:56.567Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:46:56.582 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:46:56.583 [error] [Extension Host] 2026-01-14T16:46:56.581Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:48:56.581 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:48:56.581 [error] [Extension Host] 2026-01-14T16:48:56.580Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:50:56.587 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:50:56.587 [error] [Extension Host] 2026-01-14T16:50:56.586Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:52:56.595 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:52:56.595 [error] [Extension Host] 2026-01-14T16:52:56.593Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:54:56.594 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:54:56.594 [error] [Extension Host] 2026-01-14T16:54:56.593Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:56:56.603 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:56:56.604 [error] [Extension Host] 2026-01-14T16:56:56.602Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:58:56.608 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-14 23:58:56.609 [error] [Extension Host] 2026-01-14T16:58:56.607Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-15 00:00:56.618 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-15 00:00:56.618 [error] [Extension Host] 2026-01-14T17:00:56.617Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-15 00:02:56.631 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-15 00:02:56.631 [error] [Extension Host] 2026-01-14T17:02:56.630Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-15 00:04:56.635 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-15 00:04:56.635 [error] [Extension Host] 2026-01-14T17:04:56.634Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-15 00:06:56.634 [error] [Extension Host] Quota fetch error: connect ECONNREFUSED 127.0.0.1:59892
+2026-01-15 00:06:56.634 [error] [Extension Host] 2026-01-14T17:06:56.633Z ERROR [AGQ][Extension] Quota error: connect ECONNREFUSED 127.0.0.1:59892

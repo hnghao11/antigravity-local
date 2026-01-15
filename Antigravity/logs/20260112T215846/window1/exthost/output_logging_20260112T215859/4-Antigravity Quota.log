@@ -1,0 +1,82 @@
+2026-01-12T14:59:12.499Z DEBUG [AGQ][Extension] ============================================================
+2026-01-12T14:59:12.499Z DEBUG [AGQ][Extension] Antigravity Quota Activating
+2026-01-12T14:59:12.499Z DEBUG [AGQ][Extension] ============================================================
+2026-01-12T14:59:12.504Z INFO  [AGQ][Extension] VS Code Version: 1.104.0
+2026-01-12T14:59:12.504Z INFO  [AGQ][Extension] Extension activating at: 2026-01-12T14:59:12.504Z
+2026-01-12T14:59:12.504Z DEBUG [AGQ][ProcessFinder] Initializing ProcessFinder for platform: win32, arch: x64
+2026-01-12T14:59:12.505Z INFO  [AGQ][ProcessFinder] Target process name: language_server_windows_x64.exe
+2026-01-12T14:59:12.506Z DEBUG [AGQ][Extension] Initial config: {
+  "enabled": true,
+  "polling_interval": 120000,
+  "show_prompt_credits": false
+}
+2026-01-12T14:59:12.508Z DEBUG [AGQ][Extension] Starting async initialization...
+2026-01-12T14:59:12.509Z DEBUG [AGQ][Extension] ============================================================
+2026-01-12T14:59:12.509Z DEBUG [AGQ][Extension] Initializing Extension
+2026-01-12T14:59:12.509Z DEBUG [AGQ][Extension] ============================================================
+2026-01-12T14:59:12.512Z DEBUG [AGQ][PERF] Timer started: initialize_extension
+2026-01-12T14:59:12.513Z INFO  [AGQ][Extension] Detecting Antigravity process...
+2026-01-12T14:59:12.514Z DEBUG [AGQ][ProcessFinder] ============================================================
+2026-01-12T14:59:12.514Z DEBUG [AGQ][ProcessFinder] Starting process detection (max_retries: 1)
+2026-01-12T14:59:12.515Z DEBUG [AGQ][ProcessFinder] ============================================================
+2026-01-12T14:59:12.516Z DEBUG [AGQ][PERF] Timer started: detect_process_info
+2026-01-12T14:59:12.516Z DEBUG [AGQ][ProcessFinder] Attempt 1/1
+2026-01-12T14:59:12.516Z DEBUG [AGQ][ProcessFinder] Executing process list command:
+powershell -NoProfile -Command "Get-CimInstance Win32_Process -Filter \"name='language_server_windows_x64.exe'\" | Select-Object ProcessId,CommandLine | ConvertTo-Json"
+2026-01-12T14:59:12.537Z INFO  [AGQ][Extension] Extension activation complete
+2026-01-12T14:59:14.025Z DEBUG [AGQ][ProcessFinder] Raw stdout (444 chars):
+{
+    "ProcessId":  15380,
+    "CommandLine":  "c:\\Users\\Admin\\AppData\\Local\\Programs\\Antigravity\\resources\\app\\extensions\\antigravity\\bin\\language_server_windows_x64.exe --enable_lsp --extension_server_port 56204 --csrf_token 1bbccc50-4b39-47c2-a1ba-64544c538a3f --random_port --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --app_data_dir antigravity --parent_pipe_path \\\\.\\pipe\\server_4b72ae4a21b49597"
+}
+
+2026-01-12T14:59:14.026Z DEBUG [AGQ][WindowsStrategy] Parsing process info (using PowerShell: true)
+2026-01-12T14:59:14.026Z DEBUG [AGQ][WindowsStrategy] Detected JSON output, parsing...
+2026-01-12T14:59:14.026Z DEBUG [AGQ][WindowsStrategy] JSON is a single object (PID: 15380)
+2026-01-12T14:59:14.026Z DEBUG [AGQ][WindowsStrategy] CommandLine: c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\bin\language_server_windows_x64.exe --enable_lsp --extension_server_port 56204 --csrf_token 1bbccc50-4b39-47c2-a1...
+2026-01-12T14:59:14.026Z DEBUG [AGQ][WindowsStrategy] Process identified as Antigravity (--app_data_dir match)
+2026-01-12T14:59:14.026Z INFO  [AGQ][WindowsStrategy] Found 1 Antigravity process, PID: 15380
+2026-01-12T14:59:14.026Z DEBUG [AGQ][WindowsStrategy] Regex matches: extension_port=56204, csrf_token=FOUND
+2026-01-12T14:59:14.026Z DEBUG [AGQ][WindowsStrategy] Extracted: PID=15380, extension_port=56204, csrf_token=1bbccc50...
+2026-01-12T14:59:14.027Z INFO  [AGQ][ProcessFinder] Process info parsed successfully: {
+  "pid": 15380,
+  "extension_port": 56204,
+  "csrf_token": "1bbccc50..."
+}
+2026-01-12T14:59:14.027Z DEBUG [AGQ][ProcessFinder] Getting listening ports for PID: 15380
+2026-01-12T14:59:14.027Z DEBUG [AGQ][ProcessFinder] Port list command:
+powershell -NoProfile -Command "Get-NetTCPConnection -OwningProcess 15380 -State Listen | Select-Object -ExpandProperty LocalPort | ConvertTo-Json"
+2026-01-12T14:59:17.236Z DEBUG [AGQ][ProcessFinder] Port list stdout (41 chars):
+[
+    56211,
+    56206,
+    56205
+]
+
+2026-01-12T14:59:17.237Z DEBUG [AGQ][ProcessFinder] Parsed ports: [56205, 56206, 56211]
+2026-01-12T14:59:17.237Z DEBUG [AGQ][ProcessFinder] Found 3 listening port(s): [56205, 56206, 56211]
+2026-01-12T14:59:17.237Z DEBUG [AGQ][ProcessFinder] Testing ports to find working endpoint...
+2026-01-12T14:59:17.237Z DEBUG [AGQ][ProcessFinder] Testing port 56205...
+2026-01-12T14:59:17.238Z DEBUG [AGQ][ProcessFinder] HTTP request to https://127.0.0.1:56205/exa.language_server_pb.LanguageServerService/GetUnleashData
+2026-01-12T14:59:17.261Z DEBUG [AGQ][ProcessFinder] Response from port 56205: status=200
+2026-01-12T14:59:17.262Z INFO  [AGQ][ProcessFinder] Port 56205 is working
+2026-01-12T14:59:17.262Z INFO  [AGQ][ProcessFinder] SUCCESS: Valid port found: 56205
+2026-01-12T14:59:17.263Z DEBUG [AGQ][PERF] Timer ended: detect_process_info (4747ms)
+2026-01-12T14:59:17.263Z INFO  [AGQ][Extension] Process found successfully {
+  "extension_port": 56204,
+  "connect_port": 56205,
+  "csrf_token": "1bbccc50..."
+}
+2026-01-12T14:59:17.263Z DEBUG [AGQ][Extension] Starting polling with interval: 120000ms
+2026-01-12T14:59:17.265Z INFO  [AGQ][Extension] Initialization successful
+2026-01-12T14:59:17.265Z DEBUG [AGQ][PERF] Timer ended: initialize_extension (4753ms)
+2026-01-12T14:59:18.717Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T14:59:18.717Z"
+}

@@ -1,0 +1,101 @@
+{
+    "telemetry.machineId": "1e0f3e182b512821eabe66f7fe78b65dce32f076c1f9d94d8b52503687ba37ae",
+    "telemetry.sqmId": "{431F46AA-15F5-48C5-BA05-CD00547D37D0}",
+    "telemetry.devDeviceId": "8dba9af9-630f-428c-b1c2-1760b7a64592",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///d%3A/DuAnRieng/MemMart"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///d%3A/DuAnRieng/MemMart": "__default__profile__",
+            "file:///c%3A/Users/Admin/.gemini/antigravity/playground/synthetic-astro": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "unifiedStateSync.hasTrajectorySummariesMigrated": true,
+    "antigravityUnifiedStateSync.agentPreferences.hasPlanningModeMigrated": true,
+    "antigravityUnifiedStateSync.agentPreferences.hasArtifactReviewPolicyMigrated": true,
+    "antigravityUnifiedStateSync.agentPreferences.hasTerminalAutoExecutionPolicyMigrated": true,
+    "antigravityUnifiedStateSync.agentPreferences.hasTerminalAllowedCommandsMigrated": true,
+    "antigravityUnifiedStateSync.agentPreferences.hasTerminalDeniedCommandsMigrated": true,
+    "antigravityUnifiedStateSync.agentPreferences.hasAgentFileAccessMigration": true,
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///d%3A/DuAnRieng/MemMart",
+            "backupPath": "C:\\Users\\Admin\\AppData\\Roaming\\Antigravity\\Backups\\0984b129d8324d3ed11cee409bec9398",
+            "uiState": {
+                "mode": 0,
+                "x": 360,
+                "y": 140,
+                "width": 1200,
+                "height": 800
+            }
+        },
+        "openedWindows": []
+    },
+    "antigravityUnifiedStateSync.editorPreferences.hasShowSelectionPopupMigrated": true,
+    "antigravityUnifiedStateSync.editorPreferences.hasDemoModeEnabledMigrated": true,
+    "theme": "vs-dark",
+    "themeBackground": "#282c34",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#282c34",
+            "editorBackground": "#282c34",
+            "titleBarBackground": "#21252b",
+            "activityBarBackground": "#21252b",
+            "sideBarBackground": "#21252b",
+            "statusBarBackground": "#21252b",
+            "statusBarNoFolderBackground": "#21252b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 42,
+            "sideBarWidth": 292,
+            "auxiliaryBarWidth": 581,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "antigravityUnifiedStateSync.tabPreferences.hasMigrated": true,
+    "antigravityUnifiedStateSync.browserPreferences.hasBrowserAllowlistMigrated": true,
+    "antigravityUnifiedStateSync.browserPreferences.hasBrowserLaunchPreferencesMigrated": true,
+    "antigravityUnifiedStateSync.browserPreferences.hasAddedLocalhostToAllowlist": true,
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 292,
+            "auxiliaryBarWidth": 581,
+            "workspaces": {
+                "f37793291fb38631027c932ebba4258e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "32b099567c6b24219be9cc4a01f6b5c6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    },
+    "jetski.agentManagerWindowClosed": true,
+    "artifactReviewState.migratedFromInitState": true,
+    "unifiedStateSync.hasWindowPreferencesMigrated": true,
+    "antigravityUnifiedStateSync.agentPreferences.hasExplainAndFixInCurrentConversationMigrated": true,
+    "sidebarWorkspaces.migratedFromInitState": true,
+    "antigravityUnifiedStateSync.seenNuxOneTimeMigration": true,
+    "antigravityUnifiedStateSync.modelPreferences.hasLastSelectedCascadeModelMigrated": true,
+    "agentManagerWindow.migratedFromInitState": true,
+    "unifiedStateSync.hasOnboardingMigrated": true,
+    "scratchWorkspaces.migratedFromInitState": true
+}

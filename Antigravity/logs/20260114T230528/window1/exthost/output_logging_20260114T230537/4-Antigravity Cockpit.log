@@ -1,0 +1,60 @@
+[2026-01-14 16:35:32] [INFO] Antigravity Cockpit v1.8.37 - Systems Online
+[2026-01-14 16:35:32] [INFO] [CredentialStorage] Initialized
+[2026-01-14 16:35:32] [INFO] [AutoTriggerController] Initialized
+[2026-01-14 16:35:32] [INFO] [AnnouncementService] Initialized, version=1.8.37, url=PROD
+[2026-01-14 16:35:32] [INFO] Scanning environment, max attempts: 3
+[2026-01-14 16:35:33] [INFO] [WindowsStrategy] Found 2 language_server processes, 2 belong to Antigravity
+[2026-01-14 16:35:33] [INFO] Found 2 candidate process(es)
+[2026-01-14 16:35:33] [INFO] 🔍 Checking Process: PID=15740, ExtPort=59890
+[2026-01-14 16:35:35] [INFO] ✅ Connection Logic Verified: 59892
+[2026-01-14 16:35:35] [INFO] Reactor Engaged: :59892
+[2026-01-14 16:35:35] [INFO] Reactor Pulse: 120000ms
+[2026-01-14 16:35:35] [INFO] System boot successful
+[2026-01-14 16:35:35] [INFO] Antigravity Cockpit Fully Operational
+[2026-01-14 16:35:36] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-14 16:35:36] [INFO] [CredentialStorage] Active account set to: origennight@gmail.com
+[2026-01-14 16:35:36] [INFO] [CredentialStorage] Synced origennight@gmail.com to legacy key for backward compatibility
+[2026-01-14 16:35:36] [INFO] [CredentialStorage] Credential saved for origennight@gmail.com
+[2026-01-14 16:35:36] [INFO] [LocalAuth] Auto-imported credential for origennight@gmail.com
+[2026-01-14 16:35:36] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:35:36] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist
+[2026-01-14 16:35:37] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-14 16:35:37] [INFO] [CredentialStorage] Synced origennight@gmail.com to legacy key for backward compatibility
+[2026-01-14 16:35:37] [INFO] [CredentialStorage] Credential saved for origennight@gmail.com
+[2026-01-14 16:35:37] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:35:37] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:35:38] [INFO] Dashboard initialized (no cache, performing full sync)
+[2026-01-14 16:35:38] [INFO] [AnnouncementService] Fetching announcements from remote...
+[2026-01-14 16:35:38] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:35:38] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:35:38] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:35:38] [INFO] [CloudCode:TriggerService] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:35:38] [INFO] [AnnouncementService] Fetched 6 announcements
+[2026-01-14 16:35:38] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:35:38] [INFO] Updating state 'state.groupMappings': {"MODEL_CLAUDE_4_5_SONNET":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_CLAUDE_4_5_SONNET_THINKING":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_OPENAI_GPT_OSS_120B_MEDIUM":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_PLACEHOLDER_M12":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_PLACEHOLDER_M18":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_PLACEHOLDER_M9":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_PLACEHOLDER_M7":"MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8","MODEL_PLACEHOLDER_M8":"MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8"}
+[2026-01-14 16:35:38] [INFO] Reprocessing cached snapshot (no raw response)
+[2026-01-14 16:35:38] [INFO] Auto-pinning all 8 groups to status bar
+[2026-01-14 16:35:38] [INFO] Updating state 'state.pinnedGroups': ["MODEL_PLACEHOLDER_M12","MODEL_CLAUDE_4_5_SONNET","MODEL_CLAUDE_4_5_SONNET_THINKING","MODEL_PLACEHOLDER_M18","MODEL_PLACEHOLDER_M8","MODEL_PLACEHOLDER_M7","MODEL_PLACEHOLDER_M9","MODEL_OPENAI_GPT_OSS_120B_MEDIUM"]
+[2026-01-14 16:35:38] [INFO] Auto-grouped on first run: 8 models
+[2026-01-14 16:35:38] [INFO] Reprocessing cached snapshot (no raw response)
+[2026-01-14 16:35:38] [INFO] Reprocessing cached snapshot (no raw response)
+[2026-01-14 16:35:38] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 96.25%
+    Gemini 3 Pro (Low)           : 96.25%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:35:38] [INFO] [AnnouncementService] Fetching announcements from remote...
+[2026-01-14 16:35:39] [INFO] [AnnouncementService] Fetched 6 announcements
+[2026-01-14 16:36:01] [INFO] Antigravity Cockpit: Shutting down...

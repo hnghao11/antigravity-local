@@ -1,0 +1,16 @@
+2026-01-15 21:49:12.038 [info] Launching browser...
+2026-01-15 21:49:12.547 [info] No Chrome with CDP found on port 9222. Safe to launch Chrome.
+2026-01-15 21:49:12.708 [info] Launching browser with command: "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir=C:\Users\Admin\.gemini\antigravity-browser-profile --disable-fre --no-default-browser-check --no-first-run --auto-accept-browser-signin-for-tests --ash-no-nudges --disable-features=OfferMigrationToDiceUsers,OptGuideOnDeviceModel
+2026-01-15 21:49:12.717 [info] Starting SSH reverse proxy...
+2026-01-15 21:49:12.719 [info] Not in remote SSH session. Skipping reverse proxy initialization.
+2026-01-15 21:49:13.291 [info] No Chrome with CDP found on port 9222. Safe to launch Chrome.
+2026-01-15 21:49:13.946 [info] Chrome with CDP is already running on port 9222.
+2026-01-15 21:49:14.138 [info] Browser ready on port 9222 after 2129ms
+2026-01-15 21:51:43.660 [info] Launching browser...
+2026-01-15 21:51:44.180 [info] No Chrome with CDP found on port 9222. Safe to launch Chrome.
+2026-01-15 21:51:44.308 [info] Launching browser with command: "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir=C:\Users\Admin\.gemini\antigravity-browser-profile --disable-fre --no-default-browser-check --no-first-run --auto-accept-browser-signin-for-tests --ash-no-nudges --disable-features=OfferMigrationToDiceUsers,OptGuideOnDeviceModel
+2026-01-15 21:51:44.314 [info] Starting SSH reverse proxy...
+2026-01-15 21:51:44.314 [info] Not in remote SSH session. Skipping reverse proxy initialization.
+2026-01-15 21:51:44.977 [info] No Chrome with CDP found on port 9222. Safe to launch Chrome.
+2026-01-15 21:51:45.759 [info] Chrome with CDP is already running on port 9222.
+2026-01-15 21:51:45.974 [info] Browser ready on port 9222 after 2313ms

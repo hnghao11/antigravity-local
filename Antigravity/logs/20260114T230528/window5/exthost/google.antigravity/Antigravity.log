@@ -1,0 +1,20 @@
+2026-01-14 23:26:50.967 [info] 2026/01/14 23:26:50 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2026-01-14 23:26:51.033 [info] I0114 23:26:51.033002 20808 server.go:1172] Starting language server process with pid 20808
+2026-01-14 23:26:51.033 [info] I0114 23:26:51.033002 20808 server.go:286] Setting GOMAXPROCS to 4
+2026-01-14 23:26:51.037 [info] I0114 23:26:51.037054 20808 server.go:493] Language server will attempt to listen on host 127.0.0.1
+2026-01-14 23:26:51.038 [info] I0114 23:26:51.038054 20808 server.go:508] Language server listening on random port at 57304 for HTTPS
+2026-01-14 23:26:51.038 [info] I0114 23:26:51.038054 20808 server.go:515] Language server listening on random port at 57305 for HTTP
+2026-01-14 23:26:51.416 [info] I0114 23:26:51.415696 20808 server.go:486] Created extension server client at port 57303
+2026-01-14 23:26:51.511 [info] W0114 23:26:51.510274 20808 client.go:136] failed to set auth token
+2026-01-14 23:26:51.526 [info] W0114 23:26:51.523155 20808 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-14 23:26:51.528 [info] W0114 23:26:51.527638 20808 client.go:136] failed to set auth token
+2026-01-14 23:26:51.529 [info] W0114 23:26:51.528646 20808 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-14 23:26:51.529 [info] W0114 23:26:51.528646 20808 client.go:136] failed to set auth token
+2026-01-14 23:26:51.529 [info] W0114 23:26:51.528646 20808 log_context.go:106] Cache(userInfo): Singleflight refresh failed: You are not logged into Antigravity.
+2026-01-14 23:26:51.546 [info] (Antigravity) 2026-01-14 23:26:51.544 [INFO]: Language server started
+2026-01-14 23:26:51.583 [info] I0114 23:26:51.582686 20808 server.go:1528] initialized server successfully
+2026-01-14 23:26:51.663 [info] 2026/01/14 23:26:51 http: TLS handshake error from 127.0.0.1:57317: read tcp 127.0.0.1:57304->127.0.0.1:57317: wsarecv: An established connection was aborted by the software in your host machine.
+2026-01-14 23:26:51.730 [info] (Antigravity) 2026-01-14 23:26:51.729 [INFO]: LS lspClient started successfully
+2026-01-15 00:08:14.262 [info] E0115 00:08:14.261127 20808 interceptor.go:74] /exa.language_server_pb.LanguageServerService/StreamCascadeReactiveUpdates (unknown): reactive component b0708fa8-5eb5-4c34-b5d5-762b753d9e4f not found
+2026-01-15 00:08:15.270 [info] E0115 00:08:15.269542 20808 interceptor.go:74] /exa.language_server_pb.LanguageServerService/StreamCascadeReactiveUpdates (unknown): reactive component b0708fa8-5eb5-4c34-b5d5-762b753d9e4f not found
+2026-01-15 00:08:16.280 [info] E0115 00:08:16.280289 20808 interceptor.go:74] /exa.language_server_pb.LanguageServerService/StreamCascadeReactiveUpdates (unknown): reactive component b0708fa8-5eb5-4c34-b5d5-762b753d9e4f not found

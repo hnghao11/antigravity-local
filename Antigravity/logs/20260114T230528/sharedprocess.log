@@ -1,0 +1,16 @@
+2026-01-14 23:35:29.452 [info] Getting Manifest... jlcodes.antigravity-cockpit
+2026-01-14 23:35:30.266 [info] Installing extension: jlcodes.antigravity-cockpit {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json","path":"/c:/Users/Admin/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.0","date":"2026-01-13T02:07:24.766Z"}}
+2026-01-14 23:35:31.026 [info] Extracted extension to file:///c%3A/Users/Admin/.antigravity/extensions/jlcodes.antigravity-cockpit-1.8.37-universal: jlcodes.antigravity-cockpit
+2026-01-14 23:35:31.044 [info] Renamed to c:\Users\Admin\.antigravity\extensions\jlcodes.antigravity-cockpit-1.8.37-universal
+2026-01-14 23:35:31.111 [info] Extension installed successfully: jlcodes.antigravity-cockpit vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json
+2026-01-14 23:35:31.111 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at ea.value (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62540)
+    at D.C (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2373)
+    at D (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2443)
+    at D.fire (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2660)
+    at Nu.L (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10718)
+    at async Nu.installGalleryExtensions (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2499)
+    at async Nu.installFromGallery (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1748)
+2026-01-14 23:35:58.593 [info] Uninstalling extension from the profile: henrikdev.ag-quota@1.1.0 vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json
+2026-01-14 23:35:58.678 [info] Marked extension as removed henrikdev.ag-quota-1.1.0-universal
+2026-01-14 23:35:59.185 [info] Successfully uninstalled extension from the profile henrikdev.ag-quota@1.1.0 vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json

@@ -1,0 +1,50 @@
+2026-01-12 21:58:47.275 [info] Using Cloud Code URL: https://daily-cloudcode-pa.googleapis.com
+2026-01-12 21:58:47.275 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-01-12 21:58:47.275 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:59690
+2026-01-12 21:58:47.276 [info] [CascadeMonitoringServer] Monitoring server started on http://localhost:9101/antigravity
+2026-01-12 21:58:47.310 [info] update#setState idle
+2026-01-12 21:58:47.411 [error] Error refreshing user status No OAuth token available. User is not logged in, or token needs to be refreshed.
+2026-01-12 21:58:47.413 [info] AntigravityAuthMainService initialized
+2026-01-12 21:59:12.718 [info] [AgentClientServer] Cascade initializing for worksapce 
+2026-01-12 21:59:12.740 [info] [AgentClientServer] Starting server
+2026-01-12 21:59:12.744 [error] [AgentClientServer] HTML file does not exist: /c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/extensions/antigravity/cascade-panel.html
+2026-01-12 21:59:16.474 [warning] [perf] profiling STARTED b00dbdee-08e6-4df0-9588-951283800092
+2026-01-12 21:59:16.619 [info] [BrowserPreferencesLifecycle] Migrated 0 URLs from browserAllowlist.txt
+2026-01-12 21:59:16.626 [info] [BrowserPreferencesLifecycle] Migrated browser tools setting: 0
+2026-01-12 21:59:16.626 [info] [BrowserPreferencesLifecycle] Migrated browser JS execution policy: 0
+2026-01-12 21:59:17.316 [info] update#setState checking for updates
+2026-01-12 21:59:17.563 [info] update#setState idle
+2026-01-12 21:59:21.526 [warning] [perf] profiling DONE b00dbdee-08e6-4df0-9588-951283800092
+2026-01-12 21:59:26.512 [info] Extension host with pid 20312 exited with code: 0, signal: unknown.
+2026-01-12 21:59:41.909 [warning] [UtilityProcessWorker]: createWorker() found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2026-01-12 21:59:42.018 [info] Extension host with pid 16288 exited with code: 0, signal: unknown.
+2026-01-12 21:59:54.568 [info] [AgentClientServer] Cascade initializing for worksapce file:///d%3A/DuAnRieng/MemMart
+2026-01-12 21:59:54.568 [info] [AgentClientServer] Starting server
+2026-01-12 21:59:54.569 [error] [AgentClientServer] HTML file does not exist: /c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/extensions/antigravity/cascade-panel.html
+2026-01-12 22:00:48.290 [info] Extension host with pid 7664 exited with code: 0, signal: unknown.
+2026-01-12 22:00:55.539 [info] [AgentClientServer] Cascade initializing for worksapce file:///d%3A/DuAnRieng/MemMart
+2026-01-12 22:00:55.539 [info] [AgentClientServer] Starting server
+2026-01-12 22:00:55.541 [error] [AgentClientServer] HTML file does not exist: /c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/extensions/antigravity/cascade-panel.html
+2026-01-12 22:50:18.919 [warning] [perf] profiling STARTED 7e445e49-9057-49bf-97c9-3e2c8c8145d9
+2026-01-12 22:50:24.082 [warning] [perf] profiling DONE 7e445e49-9057-49bf-97c9-3e2c8c8145d9
+2026-01-12 22:50:25.087 [info] [AgentClientServer] Cascade initializing for worksapce 
+2026-01-12 22:50:25.088 [info] [AgentClientServer] Starting server
+2026-01-12 22:50:25.090 [error] [AgentClientServer] HTML file does not exist: /c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/extensions/antigravity/cascade-panel.html
+2026-01-12 22:50:36.719 [info] Extension host with pid 11940 exited with code: 0, signal: unknown.
+2026-01-12 22:59:17.318 [info] update#setState checking for updates
+2026-01-12 22:59:17.633 [info] update#setState idle
+2026-01-12 23:01:12.494 [warning] [perf] profiling STARTED 806a22e2-fa2d-48be-874a-eebb95430ac8
+2026-01-12 23:01:17.643 [warning] [perf] profiling DONE 806a22e2-fa2d-48be-874a-eebb95430ac8
+2026-01-12 23:01:33.940 [warning] [perf] profiling STARTED 806a22e2-fa2d-48be-874a-eebb95430ac8
+2026-01-12 23:01:39.010 [warning] [perf] profiling DONE 806a22e2-fa2d-48be-874a-eebb95430ac8
+2026-01-12 23:01:54.905 [warning] [perf] profiling STARTED 806a22e2-fa2d-48be-874a-eebb95430ac8
+2026-01-12 23:01:59.985 [warning] [perf] profiling DONE 806a22e2-fa2d-48be-874a-eebb95430ac8
+2026-01-12 23:17:32.570 [warning] [perf] profiling STARTED 7a36bde2-4c08-4aa7-8412-98a1f264cd8d
+2026-01-12 23:17:37.677 [warning] [perf] profiling DONE 7a36bde2-4c08-4aa7-8412-98a1f264cd8d
+2026-01-12 23:17:54.258 [warning] [perf] profiling STARTED 7a36bde2-4c08-4aa7-8412-98a1f264cd8d
+2026-01-12 23:17:59.328 [warning] [perf] profiling DONE 7a36bde2-4c08-4aa7-8412-98a1f264cd8d
+2026-01-12 23:18:15.874 [warning] [perf] profiling STARTED 7a36bde2-4c08-4aa7-8412-98a1f264cd8d
+2026-01-12 23:18:20.962 [warning] [perf] profiling DONE 7a36bde2-4c08-4aa7-8412-98a1f264cd8d
+2026-01-12 23:59:17.328 [info] update#setState checking for updates
+2026-01-12 23:59:17.630 [info] update#setState idle
+2026-01-13 00:21:41.006 [info] Extension host with pid 11936 exited with code: 0, signal: unknown.

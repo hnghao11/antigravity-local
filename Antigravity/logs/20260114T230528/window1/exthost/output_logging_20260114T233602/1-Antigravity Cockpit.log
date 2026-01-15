@@ -1,0 +1,239 @@
+[2026-01-14 16:36:03] [INFO] Antigravity Cockpit v1.8.37 - Systems Online
+[2026-01-14 16:36:03] [INFO] [CredentialStorage] Initialized
+[2026-01-14 16:36:03] [INFO] [AutoTriggerController] Initialized
+[2026-01-14 16:36:03] [INFO] [AnnouncementService] Initialized, version=1.8.37, url=PROD
+[2026-01-14 16:36:03] [INFO] Scanning environment, max attempts: 3
+[2026-01-14 16:36:03] [INFO] [CredentialStorage] Legacy credential cleaned up (already migrated)
+[2026-01-14 16:36:04] [INFO] [WindowsStrategy] Found 1 language_server processes, 1 belong to Antigravity
+[2026-01-14 16:36:04] [INFO] Found 1 candidate process(es)
+[2026-01-14 16:36:04] [INFO] 🔍 Checking Process: PID=20808, ExtPort=57303
+[2026-01-14 16:36:09] [INFO] ✅ Connection Logic Verified: 57304
+[2026-01-14 16:36:09] [INFO] Reactor Engaged: :57304
+[2026-01-14 16:36:09] [INFO] Reactor Pulse: 120000ms
+[2026-01-14 16:36:09] [INFO] System boot successful
+[2026-01-14 16:36:09] [INFO] Antigravity Cockpit Fully Operational
+[2026-01-14 16:36:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:36:10] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:36:10] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:36:10] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 96.25%
+    Gemini 3 Pro (Low)           : 96.25%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:38:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:38:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:38:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:38:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 96.25%
+    Gemini 3 Pro (Low)           : 96.25%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:40:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:40:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:40:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:40:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:42:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:42:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:42:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:42:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:44:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:44:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:44:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:44:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:46:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:46:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:46:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:46:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:48:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:48:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:48:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:48:10] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:50:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:50:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:50:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:50:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:52:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:52:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:52:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:52:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:54:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:54:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:54:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:54:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:56:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:56:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:56:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:56:10] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 16:58:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 16:58:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 16:58:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 16:58:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 17:00:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 17:00:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 17:00:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 17:00:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 17:01:31] [INFO] Dashboard initialized (reprocessing cached data)
+[2026-01-14 17:01:31] [INFO] Reprocessing cached snapshot (no raw response)
+[2026-01-14 17:01:31] [INFO] [CloudCode:TriggerService] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 17:02:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 17:02:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 17:02:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 17:02:09] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 17:02:20] [INFO] Toggling group pin: MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8
+[2026-01-14 17:02:20] [INFO] Toggling pin state for group: MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8
+[2026-01-14 17:02:20] [INFO] Group MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8 not found, adding.
+[2026-01-14 17:02:20] [INFO] New pinned groups: ["MODEL_PLACEHOLDER_M12","MODEL_CLAUDE_4_5_SONNET","MODEL_CLAUDE_4_5_SONNET_THINKING","MODEL_PLACEHOLDER_M18","MODEL_PLACEHOLDER_M8","MODEL_PLACEHOLDER_M7","MODEL_PLACEHOLDER_M9","MODEL_OPENAI_GPT_OSS_120B_MEDIUM","MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8"]
+[2026-01-14 17:02:20] [INFO] Updating state 'state.pinnedGroups': ["MODEL_PLACEHOLDER_M12","MODEL_CLAUDE_4_5_SONNET","MODEL_CLAUDE_4_5_SONNET_THINKING","MODEL_PLACEHOLDER_M18","MODEL_PLACEHOLDER_M8","MODEL_PLACEHOLDER_M7","MODEL_PLACEHOLDER_M9","MODEL_OPENAI_GPT_OSS_120B_MEDIUM","MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8"]
+[2026-01-14 17:02:20] [INFO] Reprocessing cached snapshot (no raw response)
+[2026-01-14 17:02:20] [INFO] Reprocessing cached snapshot (no raw response)
+[2026-01-14 17:02:24] [INFO] Toggling group pin: MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9
+[2026-01-14 17:02:24] [INFO] Toggling pin state for group: MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9
+[2026-01-14 17:02:24] [INFO] Group MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9 not found, adding.
+[2026-01-14 17:02:24] [INFO] New pinned groups: ["MODEL_PLACEHOLDER_M12","MODEL_CLAUDE_4_5_SONNET","MODEL_CLAUDE_4_5_SONNET_THINKING","MODEL_PLACEHOLDER_M18","MODEL_PLACEHOLDER_M8","MODEL_PLACEHOLDER_M7","MODEL_PLACEHOLDER_M9","MODEL_OPENAI_GPT_OSS_120B_MEDIUM","MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8","MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9"]
+[2026-01-14 17:02:24] [INFO] Updating state 'state.pinnedGroups': ["MODEL_PLACEHOLDER_M12","MODEL_CLAUDE_4_5_SONNET","MODEL_CLAUDE_4_5_SONNET_THINKING","MODEL_PLACEHOLDER_M18","MODEL_PLACEHOLDER_M8","MODEL_PLACEHOLDER_M7","MODEL_PLACEHOLDER_M9","MODEL_OPENAI_GPT_OSS_120B_MEDIUM","MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8","MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9"]
+[2026-01-14 17:02:24] [INFO] Reprocessing cached snapshot (no raw response)
+[2026-01-14 17:02:24] [INFO] Reprocessing cached snapshot (no raw response)
+[2026-01-14 17:02:28] [INFO] Dashboard initialized (reprocessing cached data)
+[2026-01-14 17:02:28] [INFO] Reprocessing cached snapshot (no raw response)
+[2026-01-14 17:02:28] [INFO] [CloudCode:TriggerService] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 17:04:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 17:04:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 17:04:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 17:04:10] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 17:06:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 17:06:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 17:06:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 17:06:10] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 17:08:09] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-14 17:08:09] [INFO] [AuthorizedQuota] Fetching available models
+[2026-01-14 17:08:09] [INFO] [CloudCode:AuthorizedQuota] Requesting https://cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels
+[2026-01-14 17:08:10] [INFO] Quota Update:
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Pro Image           : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-14 17:08:13] [INFO] Antigravity Cockpit: Shutting down...

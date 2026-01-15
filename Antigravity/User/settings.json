@@ -1,0 +1,8 @@
+{
+  "snyk.advanced.cliPath": "C:\\Users\\Admin\\AppData\\Local\\snyk\\vscode-cli\\snyk-win.exe",
+  "snyk.yesWelcomeNotification": false,
+  "workbench.colorTheme": "One Dark Pro Mix",
+  "workbench.iconTheme": "material-icon-theme",
+  "agq.pinnedModels": ["MODEL_PLACEHOLDER_M12", "MODEL_PLACEHOLDER_M8"],
+  "editor.fontFamily": "'SF Mono',Consolas, 'Courier New', monospace"
+}

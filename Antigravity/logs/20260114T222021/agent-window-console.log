@@ -1,0 +1,4 @@
+2026-01-14 22:20:36.628 [info] [Manager] Uncaught (in promise) Error: Window not found (undefined) (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\out\vs\code\electron-browser\workbench\workbench-jetski-agent.html:0)
+2026-01-14 22:20:36.628 [info] [Manager] Uncaught (in promise) Error: Window not found (undefined) (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\out\vs\code\electron-browser\workbench\workbench-jetski-agent.html:0)
+2026-01-14 22:21:03.991 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\out\vs\code\electron-browser\workbench\workbench-jetski-agent.html:0)
+2026-01-14 22:21:06.364 [info] [Manager] ResizeObserver loop completed with undelivered notifications. (c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\out\vs\code\electron-browser\workbench\workbench-jetski-agent.html:0)

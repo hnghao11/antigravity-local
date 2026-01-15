@@ -1,0 +1,32 @@
+2026-01-13 21:19:36.961 [info] Using Cloud Code URL: https://daily-cloudcode-pa.googleapis.com
+2026-01-13 21:19:36.961 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-01-13 21:19:36.961 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:61243
+2026-01-13 21:19:36.961 [info] [CascadeMonitoringServer] Monitoring server started on http://localhost:9101/antigravity
+2026-01-13 21:19:36.961 [info] update#setState idle
+2026-01-13 21:19:40.274 [info] AntigravityAuthMainService initialized
+2026-01-13 21:20:06.946 [info] update#setState checking for updates
+2026-01-13 21:20:07.216 [info] update#setState idle
+2026-01-13 21:20:13.448 [info] [AgentClientServer] Cascade initializing for worksapce file:///d%3A/DuAnRieng/MemMart
+2026-01-13 21:20:13.449 [info] [AgentClientServer] Starting server
+2026-01-13 21:20:13.452 [error] [AgentClientServer] HTML file does not exist: /c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/extensions/antigravity/cascade-panel.html
+2026-01-13 21:34:13.652 [warning] [perf] profiling STARTED e491f110-1358-4aa5-80b9-89e199f56252
+2026-01-13 21:34:18.760 [warning] [perf] profiling DONE e491f110-1358-4aa5-80b9-89e199f56252
+2026-01-13 21:34:34.651 [warning] [perf] profiling STARTED e491f110-1358-4aa5-80b9-89e199f56252
+2026-01-13 21:34:39.719 [warning] [perf] profiling DONE e491f110-1358-4aa5-80b9-89e199f56252
+2026-01-13 21:34:55.526 [warning] [perf] profiling STARTED e491f110-1358-4aa5-80b9-89e199f56252
+2026-01-13 21:35:00.577 [warning] [perf] profiling DONE e491f110-1358-4aa5-80b9-89e199f56252
+2026-01-13 22:02:08.633 [warning] [perf] profiling STARTED a008362a-c685-47e0-a4ea-35937e705dd7
+2026-01-13 22:02:13.717 [warning] [perf] profiling DONE a008362a-c685-47e0-a4ea-35937e705dd7
+2026-01-13 22:02:29.513 [warning] [perf] profiling STARTED a008362a-c685-47e0-a4ea-35937e705dd7
+2026-01-13 22:02:34.569 [warning] [perf] profiling DONE a008362a-c685-47e0-a4ea-35937e705dd7
+2026-01-13 22:02:50.030 [warning] [perf] profiling STARTED a008362a-c685-47e0-a4ea-35937e705dd7
+2026-01-13 22:02:55.146 [warning] [perf] profiling DONE a008362a-c685-47e0-a4ea-35937e705dd7
+2026-01-13 22:11:44.801 [warning] [perf] profiling STARTED 5a10b844-6a56-48a8-8089-b9303984535a
+2026-01-13 22:11:49.848 [warning] [perf] profiling DONE 5a10b844-6a56-48a8-8089-b9303984535a
+2026-01-13 22:12:05.333 [warning] [perf] profiling STARTED 5a10b844-6a56-48a8-8089-b9303984535a
+2026-01-13 22:12:10.429 [warning] [perf] profiling DONE 5a10b844-6a56-48a8-8089-b9303984535a
+2026-01-13 22:12:25.910 [warning] [perf] profiling STARTED 5a10b844-6a56-48a8-8089-b9303984535a
+2026-01-13 22:12:31.016 [warning] [perf] profiling DONE 5a10b844-6a56-48a8-8089-b9303984535a
+2026-01-13 22:20:06.953 [info] update#setState checking for updates
+2026-01-13 22:20:07.241 [info] update#setState idle
+2026-01-13 22:24:25.099 [info] Extension host with pid 7256 exited with code: 0, signal: unknown.

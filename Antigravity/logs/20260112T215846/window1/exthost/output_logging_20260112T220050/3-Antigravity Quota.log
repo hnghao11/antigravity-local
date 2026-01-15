@@ -1,0 +1,783 @@
+2026-01-12T15:00:55.503Z DEBUG [AGQ][Extension] ============================================================
+2026-01-12T15:00:55.504Z DEBUG [AGQ][Extension] Antigravity Quota Activating
+2026-01-12T15:00:55.504Z DEBUG [AGQ][Extension] ============================================================
+2026-01-12T15:00:55.504Z INFO  [AGQ][Extension] VS Code Version: 1.104.0
+2026-01-12T15:00:55.504Z INFO  [AGQ][Extension] Extension activating at: 2026-01-12T15:00:55.504Z
+2026-01-12T15:00:55.504Z DEBUG [AGQ][ProcessFinder] Initializing ProcessFinder for platform: win32, arch: x64
+2026-01-12T15:00:55.504Z INFO  [AGQ][ProcessFinder] Target process name: language_server_windows_x64.exe
+2026-01-12T15:00:55.505Z DEBUG [AGQ][Extension] Initial config: {
+  "enabled": true,
+  "polling_interval": 120000,
+  "show_prompt_credits": false
+}
+2026-01-12T15:00:55.505Z DEBUG [AGQ][Extension] Starting async initialization...
+2026-01-12T15:00:55.506Z DEBUG [AGQ][Extension] ============================================================
+2026-01-12T15:00:55.506Z DEBUG [AGQ][Extension] Initializing Extension
+2026-01-12T15:00:55.506Z DEBUG [AGQ][Extension] ============================================================
+2026-01-12T15:00:55.506Z DEBUG [AGQ][PERF] Timer started: initialize_extension
+2026-01-12T15:00:55.506Z INFO  [AGQ][Extension] Detecting Antigravity process...
+2026-01-12T15:00:55.509Z DEBUG [AGQ][ProcessFinder] ============================================================
+2026-01-12T15:00:55.511Z DEBUG [AGQ][ProcessFinder] Starting process detection (max_retries: 1)
+2026-01-12T15:00:55.511Z DEBUG [AGQ][ProcessFinder] ============================================================
+2026-01-12T15:00:55.511Z DEBUG [AGQ][PERF] Timer started: detect_process_info
+2026-01-12T15:00:55.512Z DEBUG [AGQ][ProcessFinder] Attempt 1/1
+2026-01-12T15:00:55.512Z DEBUG [AGQ][ProcessFinder] Executing process list command:
+powershell -NoProfile -Command "Get-CimInstance Win32_Process -Filter \"name='language_server_windows_x64.exe'\" | Select-Object ProcessId,CommandLine | ConvertTo-Json"
+2026-01-12T15:00:55.550Z INFO  [AGQ][Extension] Extension activation complete
+2026-01-12T15:00:56.617Z DEBUG [AGQ][ProcessFinder] Raw stdout (486 chars):
+{
+    "ProcessId":  2676,
+    "CommandLine":  "c:\\Users\\Admin\\AppData\\Local\\Programs\\Antigravity\\resources\\app\\extensions\\antigravity\\bin\\language_server_windows_x64.exe --enable_lsp --extension_server_port 54294 --csrf_token af7b31aa-cc62-4e8e-bb55-75746f9d4089 --random_port --workspace_id file_d_3A_DuAnRieng_MemMart --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --app_data_dir antigravity --parent_pipe_path \\\\.\\pipe\\server_09bfe5b8055e4cb3"
+}
+
+2026-01-12T15:00:56.618Z DEBUG [AGQ][WindowsStrategy] Parsing process info (using PowerShell: true)
+2026-01-12T15:00:56.618Z DEBUG [AGQ][WindowsStrategy] Detected JSON output, parsing...
+2026-01-12T15:00:56.618Z DEBUG [AGQ][WindowsStrategy] JSON is a single object (PID: 2676)
+2026-01-12T15:00:56.618Z DEBUG [AGQ][WindowsStrategy] CommandLine: c:\Users\Admin\AppData\Local\Programs\Antigravity\resources\app\extensions\antigravity\bin\language_server_windows_x64.exe --enable_lsp --extension_server_port 54294 --csrf_token af7b31aa-cc62-4e8e-bb...
+2026-01-12T15:00:56.618Z DEBUG [AGQ][WindowsStrategy] Process identified as Antigravity (--app_data_dir match)
+2026-01-12T15:00:56.619Z INFO  [AGQ][WindowsStrategy] Found 1 Antigravity process, PID: 2676
+2026-01-12T15:00:56.619Z DEBUG [AGQ][WindowsStrategy] Regex matches: extension_port=54294, csrf_token=FOUND
+2026-01-12T15:00:56.619Z DEBUG [AGQ][WindowsStrategy] Extracted: PID=2676, extension_port=54294, csrf_token=af7b31aa...
+2026-01-12T15:00:56.619Z INFO  [AGQ][ProcessFinder] Process info parsed successfully: {
+  "pid": 2676,
+  "extension_port": 54294,
+  "csrf_token": "af7b31aa..."
+}
+2026-01-12T15:00:56.619Z DEBUG [AGQ][ProcessFinder] Getting listening ports for PID: 2676
+2026-01-12T15:00:56.619Z DEBUG [AGQ][ProcessFinder] Port list command:
+powershell -NoProfile -Command "Get-NetTCPConnection -OwningProcess 2676 -State Listen | Select-Object -ExpandProperty LocalPort | ConvertTo-Json"
+2026-01-12T15:00:59.064Z DEBUG [AGQ][ProcessFinder] Port list stdout (41 chars):
+[
+    54307,
+    54299,
+    54298
+]
+
+2026-01-12T15:00:59.065Z DEBUG [AGQ][ProcessFinder] Parsed ports: [54298, 54299, 54307]
+2026-01-12T15:00:59.065Z DEBUG [AGQ][ProcessFinder] Found 3 listening port(s): [54298, 54299, 54307]
+2026-01-12T15:00:59.065Z DEBUG [AGQ][ProcessFinder] Testing ports to find working endpoint...
+2026-01-12T15:00:59.065Z DEBUG [AGQ][ProcessFinder] Testing port 54298...
+2026-01-12T15:00:59.066Z DEBUG [AGQ][ProcessFinder] HTTP request to https://127.0.0.1:54298/exa.language_server_pb.LanguageServerService/GetUnleashData
+2026-01-12T15:00:59.082Z DEBUG [AGQ][ProcessFinder] Response from port 54298: status=200
+2026-01-12T15:00:59.083Z INFO  [AGQ][ProcessFinder] Port 54298 is working
+2026-01-12T15:00:59.084Z INFO  [AGQ][ProcessFinder] SUCCESS: Valid port found: 54298
+2026-01-12T15:00:59.084Z DEBUG [AGQ][PERF] Timer ended: detect_process_info (3573ms)
+2026-01-12T15:00:59.084Z INFO  [AGQ][Extension] Process found successfully {
+  "extension_port": 54294,
+  "connect_port": 54298,
+  "csrf_token": "af7b31aa..."
+}
+2026-01-12T15:00:59.084Z DEBUG [AGQ][Extension] Starting polling with interval: 120000ms
+2026-01-12T15:00:59.086Z INFO  [AGQ][Extension] Initialization successful
+2026-01-12T15:00:59.086Z DEBUG [AGQ][PERF] Timer ended: initialize_extension (3580ms)
+2026-01-12T15:00:59.102Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:00:59.101Z"
+}
+2026-01-12T15:01:18.815Z DEBUG [AGQ][Extension] Show menu triggered
+2026-01-12T15:02:59.107Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:02:59.107Z"
+}
+2026-01-12T15:04:59.110Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:04:59.110Z"
+}
+2026-01-12T15:06:59.124Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:06:59.124Z"
+}
+2026-01-12T15:08:59.145Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:08:59.145Z"
+}
+2026-01-12T15:10:59.148Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:10:59.148Z"
+}
+2026-01-12T15:12:59.151Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:12:59.151Z"
+}
+2026-01-12T15:14:59.164Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:14:59.164Z"
+}
+2026-01-12T15:16:59.166Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:16:59.166Z"
+}
+2026-01-12T15:18:59.170Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:18:59.170Z"
+}
+2026-01-12T15:20:59.184Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:20:59.184Z"
+}
+2026-01-12T15:22:59.187Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:22:59.187Z"
+}
+2026-01-12T15:24:59.200Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:24:59.200Z"
+}
+2026-01-12T15:26:59.205Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:26:59.205Z"
+}
+2026-01-12T15:28:59.219Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:28:59.218Z"
+}
+2026-01-12T15:30:59.227Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:30:59.227Z"
+}
+2026-01-12T15:32:59.236Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:32:59.236Z"
+}
+2026-01-12T15:34:59.250Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:34:59.250Z"
+}
+2026-01-12T15:36:59.245Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:36:59.245Z"
+}
+2026-01-12T15:38:59.264Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:38:59.264Z"
+}
+2026-01-12T15:40:59.254Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:40:59.254Z"
+}
+2026-01-12T15:42:59.296Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:42:59.296Z"
+}
+2026-01-12T15:44:59.287Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:44:59.287Z"
+}
+2026-01-12T15:46:59.288Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:46:59.288Z"
+}
+2026-01-12T15:48:59.305Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:48:59.305Z"
+}
+2026-01-12T15:50:59.427Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:50:59.427Z"
+}
+2026-01-12T15:52:59.333Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:52:59.333Z"
+}
+2026-01-12T15:54:59.356Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:54:59.356Z"
+}
+2026-01-12T15:56:59.350Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:56:59.350Z"
+}
+2026-01-12T15:58:59.444Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T15:58:59.444Z"
+}
+2026-01-12T16:00:59.529Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:00:59.529Z"
+}
+2026-01-12T16:02:59.436Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:02:59.436Z"
+}
+2026-01-12T16:04:59.384Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:04:59.384Z"
+}
+2026-01-12T16:06:59.399Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:06:59.399Z"
+}
+2026-01-12T16:08:59.408Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:08:59.408Z"
+}
+2026-01-12T16:10:59.453Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:10:59.453Z"
+}
+2026-01-12T16:12:59.473Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:12:59.473Z"
+}
+2026-01-12T16:14:59.405Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:14:59.405Z"
+}
+2026-01-12T16:16:59.396Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:16:59.396Z"
+}
+2026-01-12T16:18:59.408Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:18:59.408Z"
+}
+2026-01-12T16:20:59.413Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:20:59.413Z"
+}
+2026-01-12T16:22:59.418Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:22:59.418Z"
+}
+2026-01-12T16:24:59.433Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:24:59.433Z"
+}
+2026-01-12T16:26:59.441Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:26:59.441Z"
+}
+2026-01-12T16:28:59.455Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:28:59.455Z"
+}
+2026-01-12T16:30:59.453Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:30:59.453Z"
+}
+2026-01-12T16:32:59.460Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:32:59.460Z"
+}
+2026-01-12T16:34:59.468Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:34:59.468Z"
+}
+2026-01-12T16:36:59.476Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:36:59.476Z"
+}
+2026-01-12T16:38:59.492Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:38:59.492Z"
+}
+2026-01-12T16:40:59.500Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:40:59.500Z"
+}
+2026-01-12T16:42:59.505Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:42:59.505Z"
+}
+2026-01-12T16:44:59.522Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:44:59.522Z"
+}
+2026-01-12T16:46:59.520Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:46:59.520Z"
+}
+2026-01-12T16:48:59.522Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:48:59.522Z"
+}
+2026-01-12T16:50:59.533Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:50:59.533Z"
+}
+2026-01-12T16:52:59.549Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:52:59.549Z"
+}
+2026-01-12T16:54:59.549Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:54:59.549Z"
+}
+2026-01-12T16:56:59.565Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:56:59.565Z"
+}
+2026-01-12T16:58:59.579Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T16:58:59.579Z"
+}
+2026-01-12T17:00:59.589Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:00:59.589Z"
+}
+2026-01-12T17:02:59.597Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:02:59.597Z"
+}
+2026-01-12T17:04:59.608Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:04:59.608Z"
+}
+2026-01-12T17:06:59.620Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:06:59.620Z"
+}
+2026-01-12T17:08:59.622Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:08:59.622Z"
+}
+2026-01-12T17:10:59.633Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:10:59.633Z"
+}
+2026-01-12T17:12:59.638Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:12:59.638Z"
+}
+2026-01-12T17:14:59.647Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:14:59.647Z"
+}
+2026-01-12T17:16:59.659Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:16:59.659Z"
+}
+2026-01-12T17:18:59.658Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:18:59.658Z"
+}
+2026-01-12T17:20:59.661Z DEBUG [AGQ][Extension] Quota update received: {
+  "models_count": 7,
+  "prompt_credits": {
+    "available": 500,
+    "monthly": 50000,
+    "used_percentage": 99,
+    "remaining_percentage": 1
+  },
+  "timestamp": "2026-01-12T17:20:59.661Z"
+}

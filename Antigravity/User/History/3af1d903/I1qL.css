@@ -1,0 +1,250 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+}
+
+  --radius: 1.5rem; /* Playful rounded look */
+  
+  /* Playful Warm Theme */
+  --background: 255 251 240; /* #FFFBF0 - Warm Cream */
+  --foreground: 45 36 36; /* #2D2424 - Dark Warm Brown */
+  
+  --card: 255 255 255; /* Pure white for clay pop */
+  --card-foreground: 45 36 36;
+  
+  --popover: 255 255 255;
+  --popover-foreground: 45 36 36;
+  
+  --primary: 255 107 107; /* #FF6B6B - Playful Coral */
+  --primary-foreground: 255 255 255;
+  
+  --secondary: 255 234 167; /* #FFEAA7 - Soft Yellow/Peach */
+  --secondary-foreground: 45 36 36;
+  
+  --muted: 240 230 220; /* Warm Muted */
+  --muted-foreground: 120 110 100; /* Warm Gray */
+  
+  --accent: 78 205 196; /* #4ECDC4 - Teal for playful contrast */
+  --accent-foreground: 255 255 255;
+  
+  --destructive: 255 82 82;
+  --border: 240 220 200; /* Warm border */
+  --input: 255 255 255;
+  --ring: 255 107 107;
+
+  --chart-1: 255 107 107;
+  --chart-2: 78 205 196;
+  --chart-3: 255 217 61;
+  --chart-4: 255 159 67;
+  --chart-5: 162 155 254;
+
+  --sidebar: 255 251 240;
+  --sidebar-foreground: 45 36 36;
+  --sidebar-primary: 255 107 107;
+  --sidebar-primary-foreground: 255 255 255;
+  --sidebar-accent: 255 234 167;
+  --sidebar-accent-foreground: 45 36 36;
+  --sidebar-border: 240 220 200;
+  --sidebar-ring: 255 107 107;
+}
+
+.dark {
+  /* Warm Dark Mode */
+  --background: 44 40 40; /* Brownish Dark Gray */
+  --foreground: 250 240 230;
+  
+  --card: 55 50 50;
+  --card-foreground: 250 240 230;
+  
+  --popover: 55 50 50;
+  --popover-foreground: 250 240 230;
+  
+  --primary: 255 130 130; /* Light Coral */
+  --primary-foreground: 44 40 40;
+  
+  --secondary: 70 60 60;
+  --secondary-foreground: 250 240 230;
+  
+  --muted: 60 55 55;
+  --muted-foreground: 180 170 160;
+  
+  --accent: 100 220 210;
+  --accent-foreground: 44 40 40;
+  
+  --destructive: 255 100 100;
+  --border: 80 70 70;
+  --input: 60 55 55;
+  --ring: 255 130 130;
+
+  --chart-1: 255 130 130;
+  --chart-2: 100 220 210;
+  --chart-3: 255 220 100;
+  --chart-4: 255 180 100;
+  --chart-5: 180 170 255;
+
+  --sidebar: 44 40 40;
+  --sidebar-foreground: 250 240 230;
+  --sidebar-primary: 255 130 130;
+  --sidebar-primary-foreground: 44 40 40;
+  --sidebar-accent: 70 60 60;
+  --sidebar-accent-foreground: 250 240 230;
+  --sidebar-border: 80 70 70;
+  --sidebar-ring: 255 130 130;
+}
+
+/* Claymorphism Utilities */
+@layer utilities {
+  .clay-card {
+    background: var(--card) !important; /* Force explicit color for clay */
+    border-radius: var(--radius);
+    box-shadow: 
+      8px 8px 16px rgba(160, 140, 120, 0.2), 
+      -8px -8px 16px rgba(255, 255, 255, 0.8);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .dark .clay-card {
+    background: var(--card) !important;
+    box-shadow: 
+      8px 8px 16px rgba(0, 0, 0, 0.3), 
+      -8px -8px 16px rgba(60, 55, 55, 0.5);
+  }
+
+  .clay-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 
+      12px 12px 20px rgba(160, 140, 120, 0.25), 
+      -12px -12px 20px rgba(255, 255, 255, 0.9);
+  }
+
+  .dark .clay-card:hover {
+    box-shadow: 
+      12px 12px 20px rgba(0, 0, 0, 0.4), 
+      -12px -12px 20px rgba(60, 55, 55, 0.6);
+  }
+
+  .clay-button {
+    box-shadow: 
+      4px 4px 8px rgba(160, 140, 120, 0.2), 
+      -4px -4px 8px rgba(255, 255, 255, 0.4);
+  }
+  
+  .clay-button:active {
+    box-shadow: inset 4px 4px 8px rgba(160, 140, 120, 0.2), 
+                inset -4px -4px 8px rgba(255, 255, 255, 0.4);
+    transform: translateY(1px);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body), system-ui, -apple-system, sans-serif;
+    /* Faster transition from 200ms -> 150ms for snappier feel */
+    transition: background-color 150ms ease, color 150ms ease;
+    /* Anti-aliasing for better text rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading), system-ui, -apple-system, sans-serif;
+    /* Slightly tighter line height for headings */
+    line-height: 1.2;
+  }
+  code,
+  pre {
+    font-family: var(--font-mono), monospace;
+  }
+
+  /* Smooth transitions for interactive elements - optimized for performance */
+  a,
+  button,
+  [role="button"] {
+    @apply transition-colors duration-150;
+  }
+  
+  /* Cursor pointer for all interactive elements */
+  a, button, [role="button"], [onclick] {
+    cursor: pointer;
+  }
+
+  /* Respect reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Custom animations for gradient effects */
+@keyframes gradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 8s ease infinite;
+}

@@ -1,0 +1,28 @@
+2026-01-12 21:59:22.060 [info] Getting Manifest... meta.pyrefly
+2026-01-12 21:59:22.903 [info] Installing extension: meta.pyrefly {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json","path":"/c:/Users/Admin/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.0","date":"2025-12-19T21:03:14.401Z"}}
+2026-01-12 21:59:23.287 [info] Getting Manifest... ms-python.python
+2026-01-12 21:59:23.874 [info] Getting Manifest... ms-python.debugpy
+2026-01-12 21:59:24.405 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-01-12 21:59:24.677 [info] Installing extension: ms-python.python {"context":{"skipPublisherTrust":true,"dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json","path":"/c:/Users/Admin/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.0","date":"2025-12-19T21:03:14.401Z"},"pinned":false,"installGivenVersion":false}
+2026-01-12 21:59:24.678 [info] Installing extension: ms-python.debugpy {"context":{"skipPublisherTrust":true,"dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json","path":"/c:/Users/Admin/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.0","date":"2025-12-19T21:03:14.401Z"},"pinned":false,"installGivenVersion":false}
+2026-01-12 21:59:24.678 [info] Installing extension: ms-python.vscode-python-envs {"context":{"skipPublisherTrust":true,"dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json","path":"/c:/Users/Admin/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.0","date":"2025-12-19T21:03:14.401Z"},"pinned":false,"installGivenVersion":false}
+2026-01-12 21:59:31.403 [info] Extracted extension to file:///c%3A/Users/Admin/.antigravity/extensions/ms-python.vscode-python-envs-1.10.0-universal: ms-python.vscode-python-envs
+2026-01-12 21:59:31.438 [info] Renamed to c:\Users\Admin\.antigravity\extensions\ms-python.vscode-python-envs-1.10.0-universal
+2026-01-12 21:59:35.354 [info] Extracted extension to file:///c%3A/Users/Admin/.antigravity/extensions/meta.pyrefly-0.47.0-win32-x64: meta.pyrefly
+2026-01-12 21:59:35.390 [info] Renamed to c:\Users\Admin\.antigravity\extensions\meta.pyrefly-0.47.0-win32-x64
+2026-01-12 21:59:35.645 [info] Extracted extension to file:///c%3A/Users/Admin/.antigravity/extensions/ms-python.debugpy-2025.18.0-win32-x64: ms-python.debugpy
+2026-01-12 21:59:35.820 [info] Renamed to c:\Users\Admin\.antigravity\extensions\ms-python.debugpy-2025.18.0-win32-x64
+2026-01-12 21:59:48.336 [info] Extracted extension to file:///c%3A/Users/Admin/.antigravity/extensions/ms-python.python-2026.0.0-universal: ms-python.python
+2026-01-12 21:59:48.564 [info] Renamed to c:\Users\Admin\.antigravity\extensions\ms-python.python-2026.0.0-universal
+2026-01-12 21:59:48.626 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json
+2026-01-12 21:59:48.626 [info] Extension installed successfully: meta.pyrefly vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json
+2026-01-12 21:59:48.626 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json
+2026-01-12 21:59:48.626 [info] Extension installed successfully: ms-python.python vscode-userdata:/c%3A/Users/Admin/.antigravity/extensions/extensions.json
+2026-01-12 21:59:48.626 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at ea.value (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62540)
+    at D.C (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2373)
+    at D (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2443)
+    at D.fire (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2660)
+    at Nu.L (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10718)
+    at async Nu.installGalleryExtensions (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2499)
+    at async Nu.installFromGallery (file:///c:/Users/Admin/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1748)

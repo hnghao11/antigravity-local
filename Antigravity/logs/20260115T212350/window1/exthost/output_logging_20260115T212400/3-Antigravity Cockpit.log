@@ -1,0 +1,966 @@
+[2026-01-15 14:24:14] [INFO] Antigravity Cockpit v1.8.37 - Systems Online
+[2026-01-15 14:24:14] [INFO] [CredentialStorage] Initialized
+[2026-01-15 14:24:14] [INFO] [AutoTriggerController] Initialized
+[2026-01-15 14:24:14] [INFO] [AnnouncementService] Initialized, version=1.8.37, url=PROD
+[2026-01-15 14:24:14] [INFO] Scanning environment, max attempts: 3
+[2026-01-15 14:24:16] [INFO] [WindowsStrategy] Found 1 language_server processes, 1 belong to Antigravity
+[2026-01-15 14:24:16] [INFO] Found 1 candidate process(es)
+[2026-01-15 14:24:16] [INFO] 🔍 Checking Process: PID=21104, ExtPort=61046
+[2026-01-15 14:24:23] [INFO] ✅ Connection Logic Verified: 61047
+[2026-01-15 14:24:23] [INFO] Reactor Engaged: :61047
+[2026-01-15 14:24:23] [INFO] Reactor Pulse: 120000ms
+[2026-01-15 14:24:23] [INFO] System boot successful
+[2026-01-15 14:24:23] [INFO] Antigravity Cockpit Fully Operational
+[2026-01-15 14:24:23] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:24:23] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:24:23] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:24:23] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:24:23] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:24:23] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:24:23] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:24:23] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:24:23] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:24:23] [WARN] Init sync failed (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus), retry 1/3 in 2000ms: Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:24:25] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:24:25] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:24:25] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:24:25] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:24:25] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:24:25] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:24:25] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:24:25] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:24:25] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:24:25] [WARN] Init sync failed (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus), retry 2/3 in 4000ms: Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:24:29] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:24:29] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:24:29] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:24:29] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:24:29] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:24:29] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:24:29] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:24:29] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:24:29] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:24:29] [WARN] Init sync failed (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus), retry 3/3 in 6000ms: Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:24:35] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:24:35] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:24:35] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:24:35] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:24:35] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:24:35] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:24:35] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:24:35] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:24:35] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:24:35] [ERROR] Init sync failed after 3 retries (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:24:35] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:26:23] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:26:23] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:26:23] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:26:23] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:26:23] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:26:23] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:26:23] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:26:23] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:26:23] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:26:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:26:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:28:23] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:28:23] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:28:23] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:28:23] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:28:23] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:28:23] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:28:23] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:28:23] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:28:23] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:28:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:28:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:30:23] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:30:23] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:30:23] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:30:23] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:30:23] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:30:23] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:30:23] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:30:23] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:30:23] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:30:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:30:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:32:23] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:32:23] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:32:23] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:32:23] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:32:23] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:32:23] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:32:23] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:32:23] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:32:23] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:32:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:32:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:34:23] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:34:23] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:34:23] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:34:23] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:34:23] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:34:23] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:34:23] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:34:23] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:34:23] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:34:23] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:34:23] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:35:20] [INFO] Dashboard initialized (no cache, performing full sync)
+[2026-01-15 14:35:20] [INFO] [AnnouncementService] Fetching announcements from remote...
+[2026-01-15 14:35:20] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:35:20] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:35:20] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:35:20] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:35:20] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:35:20] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:35:20] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:35:20] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:35:20] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:35:20] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:35:20] [ERROR] Telemetry Sync Failed (source=local, current=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:35:20] [ERROR] Reactor Malfunction (source=local): Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:35:20] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:35:20] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:35:20] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:35:20] [WARN] [TriggerService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:35:21] [INFO] [AnnouncementService] Fetched 6 announcements
+[2026-01-15 14:35:30] [INFO] Scanning environment, max attempts: 3
+[2026-01-15 14:35:30] [INFO] [WindowsStrategy] Found 1 language_server processes, 1 belong to Antigravity
+[2026-01-15 14:35:30] [INFO] Found 1 candidate process(es)
+[2026-01-15 14:35:30] [INFO] 🔍 Checking Process: PID=21104, ExtPort=61046
+[2026-01-15 14:35:32] [INFO] ✅ Connection Logic Verified: 61047
+[2026-01-15 14:35:32] [INFO] Reactor Engaged: :61047
+[2026-01-15 14:35:32] [INFO] Reactor Pulse: 120000ms
+[2026-01-15 14:35:32] [INFO] System boot successful
+[2026-01-15 14:35:32] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:35:32] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:35:32] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:35:32] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:35:32] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:35:32] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:35:32] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:35:32] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:35:32] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:35:32] [WARN] Init sync failed (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus), retry 1/3 in 2000ms: Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:35:34] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:35:34] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:35:34] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:35:34] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:35:34] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:35:34] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:35:34] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:35:34] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:35:34] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:35:34] [WARN] Init sync failed (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus), retry 2/3 in 4000ms: Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:35:38] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:35:38] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:35:39] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:35:39] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:35:39] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:35:39] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:35:39] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:35:39] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:35:39] [INFO] Signal Received (499): {
+  "statusCode": 499,
+  "bodyLength": 171
+}
+[2026-01-15 14:35:39] [WARN] Init sync failed (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus), retry 3/3 in 6000ms: Antigravity Error: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": Post "https://oauth2.googleapis.com/token": context canceled
+[2026-01-15 14:35:45] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:35:45] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:35:45] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:35:45] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:35:45] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:35:45] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:35:45] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:35:45] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:35:45] [INFO] Signal Received (500): {
+  "statusCode": 500,
+  "bodyLength": 67
+}
+[2026-01-15 14:35:45] [ERROR] Init sync failed after 3 retries (source=local, endpoint=/exa.language_server_pb.LanguageServerService/GetUserStatus): Antigravity Error: You are not logged into Antigravity.
+[2026-01-15 14:35:45] [ERROR] Reactor Malfunction (source=local): Antigravity Error: You are not logged into Antigravity.
+[2026-01-15 14:36:12] [INFO] Scanning environment, max attempts: 3
+[2026-01-15 14:36:12] [INFO] [WindowsStrategy] Found 1 language_server processes, 1 belong to Antigravity
+[2026-01-15 14:36:12] [INFO] Found 1 candidate process(es)
+[2026-01-15 14:36:12] [INFO] 🔍 Checking Process: PID=21104, ExtPort=61046
+[2026-01-15 14:36:14] [INFO] Dashboard initialized (no cache, performing full sync)
+[2026-01-15 14:36:14] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:36:14] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:36:14] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:36:14] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:36:14] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:36:14] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:36:14] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:36:14] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:36:14] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:36:14] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:36:14] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:36:14] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:36:14] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:36:14] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:36:14] [WARN] [TriggerService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:36:15] [INFO] ✅ Connection Logic Verified: 61047
+[2026-01-15 14:36:15] [INFO] Reactor Engaged: :61047
+[2026-01-15 14:36:15] [INFO] Reactor Pulse: 120000ms
+[2026-01-15 14:36:15] [INFO] System boot successful
+[2026-01-15 14:36:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:36:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:36:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:36:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:36:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:36:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:36:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:36:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:36:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:36:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:38:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:38:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:38:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:38:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:38:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:38:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:38:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:38:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:38:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:38:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:40:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:40:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:40:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:40:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:40:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:40:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:40:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:40:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:40:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:40:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:42:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:42:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:42:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:42:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:42:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:42:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:42:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:42:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:42:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:42:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:44:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:44:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:44:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:44:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:44:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:44:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:44:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:44:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:44:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:44:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:46:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:46:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:46:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:46:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:46:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:46:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:46:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:46:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:46:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:46:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:48:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:48:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:48:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:48:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:48:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:48:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:48:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:48:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:48:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:48:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:50:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:50:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:50:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:50:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:50:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:50:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:50:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:50:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:50:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:50:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:52:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:52:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:52:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:52:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:52:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:52:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:52:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:52:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:52:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:52:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:53:04] [INFO] User triggered manual refresh
+[2026-01-15 14:53:04] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:53:04] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:53:04] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:53:04] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:53:04] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:53:04] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:53:04] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:53:04] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:53:04] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:53:04] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:53:04] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:53:04] [INFO] [GroupCheck] Removing model "Gemini 3 Flash" from group "MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9" due to quota mismatch
+[2026-01-15 14:53:04] [INFO] Updating state 'state.groupMappings': {"MODEL_CLAUDE_4_5_SONNET":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_CLAUDE_4_5_SONNET_THINKING":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_OPENAI_GPT_OSS_120B_MEDIUM":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_PLACEHOLDER_M12":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_PLACEHOLDER_M9":"MODEL_CLAUDE_4_5_SONNET_MODEL_CLAUDE_4_5_SONNET_THINKING_MODEL_OPENAI_GPT_OSS_120B_MEDIUM_MODEL_PLACEHOLDER_M12_MODEL_PLACEHOLDER_M18_MODEL_PLACEHOLDER_M9","MODEL_PLACEHOLDER_M7":"MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8","MODEL_PLACEHOLDER_M8":"MODEL_PLACEHOLDER_M7_MODEL_PLACEHOLDER_M8"}
+[2026-01-15 14:53:04] [INFO] [GroupCheck] Removed 1 models from groups due to quota mismatch
+[2026-01-15 14:53:04] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:53:04] [INFO] Reprocessing cached local telemetry data with latest config
+[2026-01-15 14:53:04] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:53:04] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:53:04] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:53:04] [WARN] [TriggerService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:54:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:54:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:54:16] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:54:16] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:54:16] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:54:16] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:54:16] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:54:16] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:54:16] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:54:16] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:56:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:56:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:56:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:56:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:56:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:56:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:56:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:56:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:56:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:56:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 14:58:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 14:58:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 14:58:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 14:58:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 14:58:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 14:58:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 14:58:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 14:58:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 14:58:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 14:58:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:00:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:00:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:00:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:00:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:00:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:00:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:00:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:00:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:00:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:00:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:02:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:02:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:02:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:02:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:02:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:02:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:02:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:02:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:02:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:02:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:04:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:04:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:04:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:04:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:04:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:04:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:04:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:04:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:04:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:04:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:05:06] [INFO] User triggered manual refresh
+[2026-01-15 15:05:06] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:05:06] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:05:06] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:05:06] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:05:06] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:05:06] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:05:06] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:05:06] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:05:06] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:05:06] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:05:06] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:05:06] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:05:06] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:05:06] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:05:06] [WARN] [TriggerService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:06:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:06:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:06:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:06:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:06:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:06:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:06:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:06:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:06:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:06:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:08:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:08:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:08:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:08:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:08:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:08:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:08:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:08:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:08:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:08:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:10:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:10:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:10:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:10:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:10:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:10:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:10:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:10:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:10:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:10:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:12:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:12:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:12:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:12:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:12:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:12:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:12:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:12:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:12:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:12:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:14:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:14:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:14:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:14:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:14:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:14:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:14:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:14:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:14:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:14:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:16:15] [INFO] [LocalQuota] Using remote API with account: origennight@gmail.com
+[2026-01-15 15:16:15] [INFO] [OAuthService] Token expiring soon, refreshing...
+[2026-01-15 15:16:15] [WARN] [OAuthService] Refresh token invalid (invalid_grant)
+[2026-01-15 15:16:15] [INFO] [CredentialStorage] Credentials storage saved
+[2026-01-15 15:16:15] [INFO] [CredentialStorage] Account origennight@gmail.com marked as invalid
+[2026-01-15 15:16:15] [WARN] [LocalQuota] Remote API failed, falling back to local process: Authorization expired
+[2026-01-15 15:16:15] [INFO] [LocalQuota] Using local process API
+[2026-01-15 15:16:15] [INFO] Transmitting signal to /exa.language_server_pb.LanguageServerService/GetUserStatus {
+  "metadata": {
+    "ideName": "antigravity",
+    "extensionName": "antigravity",
+    "locale": "en"
+  }
+}
+[2026-01-15 15:16:15] [INFO] Signal Received (200): {
+  "statusCode": 200,
+  "bodyLength": 6802
+}
+[2026-01-15 15:16:15] [INFO] Quota Update:
+    Gemini 3 Pro (High)          : 100.00%
+    Gemini 3 Pro (Low)           : 100.00%
+    Gemini 3 Flash               : 100.00%
+    Claude Sonnet 4.5            : 100.00%
+    Claude Sonnet 4.5 (Thinking) : 100.00%
+    Claude Opus 4.5 (Thinking)   : 100.00%
+    GPT-OSS 120B (Medium)        : 100.00%
+[2026-01-15 15:16:17] [INFO] Antigravity Cockpit: Shutting down...
